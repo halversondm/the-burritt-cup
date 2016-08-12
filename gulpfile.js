@@ -18,11 +18,12 @@ var banner = ['/*!\n',
 ].join('');
 
 // Default task
+// Default task
 gulp.task('default', ['less', 'minify-css', 'minify-js', 'copy']);
 
 // Less task to compile the less files and add the banner
 gulp.task('less', function() {
-    return gulp.src('less/creative.less')
+    return gulp.src('less/clean-blog.less')
         .pipe(less())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(gulp.dest('css'))
@@ -33,7 +34,7 @@ gulp.task('less', function() {
 
 // Minify CSS
 gulp.task('minify-css', function() {
-    return gulp.src('css/creative.css')
+    return gulp.src('css/clean-blog.css')
         .pipe(cleanCSS({ compatibility: 'ie8' }))
         .pipe(rename({ suffix: '.min' }))
         .pipe(gulp.dest('css'))
@@ -44,7 +45,7 @@ gulp.task('minify-css', function() {
 
 // Minify JS
 gulp.task('minify-js', function() {
-    return gulp.src('js/creative.js')
+    return gulp.src('js/clean-blog.js')
         .pipe(uglify())
         .pipe(header(banner, { pkg: pkg }))
         .pipe(rename({ suffix: '.min' }))
@@ -66,18 +67,6 @@ gulp.task('jquery', function() {
         .pipe(gulp.dest('vendor/jquery'))
 })
 
-// Copy Magnific Popup core files from node_modules to vendor directory
-gulp.task('magnific-popup', function() {
-    return gulp.src(['node_modules/magnific-popup/dist/*'])
-        .pipe(gulp.dest('vendor/magnific-popup'))
-})
-
-// Copy ScrollReveal JS core JavaScript files from node_modules
-gulp.task('scrollreveal', function() {
-    return gulp.src(['node_modules/scrollreveal/dist/*.js'])
-        .pipe(gulp.dest('vendor/scrollreveal'))
-})
-
 // Copy Font Awesome core files from node_modules to vendor directory
 gulp.task('fontawesome', function() {
     return gulp.src([
@@ -91,8 +80,8 @@ gulp.task('fontawesome', function() {
         .pipe(gulp.dest('vendor/font-awesome'))
 })
 
-// Copy all dependencies from node_modules
-gulp.task('copy', ['bootstrap', 'jquery', 'fontawesome', 'magnific-popup', 'scrollreveal']);
+// Copy all third party dependencies from node_modules to vendor directory
+gulp.task('copy', ['bootstrap', 'jquery', 'fontawesome']);
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
