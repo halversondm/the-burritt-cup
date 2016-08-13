@@ -90,7 +90,7 @@ gulp.task('browserSync', function() {
             baseDir: ''
         },
     })
-})
+});
 
 // Watch Task that compiles LESS and watches for HTML or JS changes and reloads with browserSync
 gulp.task('dev', ['browserSync', 'less', 'minify-css', 'minify-js'], function() {
