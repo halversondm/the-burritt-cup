@@ -146,6 +146,7 @@ hr.small {
   background-size: cover;
   -o-background-size: cover;
   margin-bottom: 50px;
+  height: 500px;
 }
 .intro-header .site-heading,
 .intro-header .post-heading,
@@ -397,4 +398,8 @@ img::-moz-selection {
 }
 body {
   -webkit-tap-highlight-color: #0085A1;
+}
+.head {
+  height: 10%;
+  width: 10%;
 }
