@@ -1,9 +1,9 @@
 {
-  "name": "clean-blog",
-  "title": "Clean Blog",
+  "name": "the-burritt-cup",
+  "title": "The Burritt Cup",
   "version": "1.1.1",
-  "homepage": "http://startbootstrap.com/template-overviews/clean-blog",
-  "author": "Start Bootstrap",
+  "homepage": "http://theburrittcup.com",
+  "author": "Dan Halverson",
   "license": "MIT",
   "devDependencies": {
     "bootstrap": "^3.3.7",
@@ -19,6 +19,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog.git"
+    "url": "https://github.com/halversondm/the-burritt-cup.git"
   }
 }
