@@ -6,6 +6,7 @@
   "author": "Dan Halverson",
   "license": "MIT",
   "devDependencies": {
+    "aws-sdk": "2.188.0",
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
     "font-awesome": "4.7.0",
