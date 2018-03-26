@@ -5,19 +5,29 @@
   "homepage": "http://theburrittcup.com",
   "author": "Dan Halverson",
   "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist",
+    "prebuild": "npm run clean",
+    "build": "gulp build",
+    "prestart:dev": "npm run clean",
+    "start:dev": "gulp dev",
+    "prestart:dist": "npm run clean",
+    "start:dist": "gulp browserSync"
+  },
   "devDependencies": {
     "aws-sdk": "2.188.0",
-    "bootstrap": "^3.3.7",
+    "bootstrap": "4.0.0",
     "browser-sync": "^2.13.0",
     "font-awesome": "4.7.0",
     "gulp": "^3.9.1",
     "gulp-clean-css": "^2.0.10",
-    "gulp-header": "^1.8.7",
-    "gulp-less": "^3.1.0",
+    "gulp-header": "1.8.12",
+    "gulp-less": "3.5.0",
     "gulp-rename": "^1.2.2",
     "gulp-uglify": "^1.5.4",
-    "jquery": "1.12.4",
-    "magnific-popup": "1.1.0"
+    "jquery": "3.3.1",
+    "magnific-popup": "1.1.0",
+    "rimraf": "2.6.2"
   },
   "repository": {
     "type": "git",

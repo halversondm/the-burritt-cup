@@ -1,15 +1,16 @@
 // Assigning modules to local variables
-var gulp = require("gulp");
-var less = require("gulp-less");
-var browserSync = require("browser-sync").create();
-var header = require("gulp-header");
-var cleanCSS = require("gulp-clean-css");
-var rename = require("gulp-rename");
-var uglify = require("gulp-uglify");
-var pkg = require("./package.json");
+const gulp = require("gulp");
+const less = require("gulp-less");
+const browserSync = require("browser-sync").create();
+const header = require("gulp-header");
+const cleanCSS = require("gulp-clean-css");
+const rename = require("gulp-rename");
+const uglify = require("gulp-uglify");
+const rimraf = require("rimraf");
+const pkg = require("./package.json");
 
 // Set the banner content
-var banner = ["/*!\n",
+const banner = ["/*!\n",
     " * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n",
     " * Copyright 2013-" + (new Date()).getFullYear(), " <%= pkg.author %>\n",
     " * Licensed under <%= pkg.license.type %> (<%= pkg.license.url %>)\n",
@@ -17,58 +18,64 @@ var banner = ["/*!\n",
     ""
 ].join("");
 
-// Default task
-// Default task
-gulp.task("default", ["less", "minify-css", "minify-js", "copy"]);
+// copy html files to dist directory
+gulp.task("html", () => {
+    return gulp.src("src/*.html").pipe(gulp.dest("dist"));
+});
+
+// copy html files to dist directory
+gulp.task("images", () => {
+    return gulp.src("src/img/**/*").pipe(gulp.dest("dist/img"));
+});
 
 // Less task to compile the less files and add the banner
-gulp.task("less", function () {
+gulp.task("less", () => {
     return gulp.src("src/less/clean-blog.less")
         .pipe(less())
         .pipe(header(banner, {pkg: pkg}))
-        .pipe(gulp.dest("src/css"))
+        .pipe(gulp.dest("dist/css"))
         .pipe(browserSync.reload({
             stream: true
         }))
 });
 
 // Minify CSS
-gulp.task("minify-css", function () {
-    return gulp.src("src/css/clean-blog.css")
+gulp.task("minify-css", ["less"], () => {
+    return gulp.src("dist/css/clean-blog.css")
         .pipe(cleanCSS({compatibility: "ie8"}))
         .pipe(rename({suffix: ".min"}))
-        .pipe(gulp.dest("src/css"))
+        .pipe(gulp.dest("dist/css"))
         .pipe(browserSync.reload({
             stream: true
         }))
 });
 
 // Minify JS
-gulp.task("minify-js", function () {
+gulp.task("minify-js", () => {
     return gulp.src("src/js/clean-blog.js")
         .pipe(uglify())
         .pipe(header(banner, {pkg: pkg}))
         .pipe(rename({suffix: ".min"}))
-        .pipe(gulp.dest("src/js"))
+        .pipe(gulp.dest("dist/js"))
         .pipe(browserSync.reload({
             stream: true
         }))
 });
 
 // Copy Bootstrap core files from node_modules to vendor directory
-gulp.task("bootstrap", function () {
+gulp.task("bootstrap", () => {
     return gulp.src(["node_modules/bootstrap/dist/**/*", "!**/npm.js", "!**/bootstrap-theme.*", "!**/*.map"])
-        .pipe(gulp.dest("src/vendor/bootstrap"))
+        .pipe(gulp.dest("dist/vendor/bootstrap"))
 });
 
 // Copy jQuery core files from node_modules to vendor directory
-gulp.task("jquery", function () {
+gulp.task("jquery", () => {
     return gulp.src(["node_modules/jquery/dist/jquery.js", "node_modules/jquery/dist/jquery.min.js"])
-        .pipe(gulp.dest("src/vendor/jquery"))
+        .pipe(gulp.dest("dist/vendor/jquery"))
 });
 
 // Copy Font Awesome core files from node_modules to vendor directory
-gulp.task("fontawesome", function () {
+gulp.task("fontawesome", () => {
     return gulp.src([
         "node_modules/font-awesome/**",
         "!node_modules/font-awesome/**/*.map",
@@ -77,40 +84,19 @@ gulp.task("fontawesome", function () {
         "!node_modules/font-awesome/*.md",
         "!node_modules/font-awesome/*.json"
     ])
-        .pipe(gulp.dest("src/vendor/font-awesome"))
+        .pipe(gulp.dest("dist/vendor/font-awesome"))
 });
 
 // Copy Magnific Popup files from node_modules to vendor directory
-gulp.task("magnificpopup", function () {
+gulp.task("magnificpopup", () => {
     return gulp.src([
         "node_modules/magnific-popup/dist/**"
     ])
-        .pipe(gulp.dest("src/vendor/magnific-popup"))
+        .pipe(gulp.dest("dist/vendor/magnific-popup"))
 });
-
-// Copy all third party dependencies from node_modules to vendor directory
-gulp.task("copy", ["bootstrap", "jquery", "fontawesome", "magnificpopup"]);
 
 // Configure the browserSync task
-gulp.task("browserSync", function () {
-    browserSync.init({
-        server: {
-            baseDir: "./src/"
-        },
-    })
-});
-
-// build process and build testing
-
-gulp.task("create-dist", function () {
-    gulp.src(["src/css/clean-blog.min.css"]).pipe(gulp.dest("dist/css/"));
-    gulp.src(["src/img/**"]).pipe(gulp.dest("dist/img"));
-    gulp.src(["src/js/clean-blog.min.js"]).pipe(gulp.dest("dist/js"));
-    gulp.src(["src/vendor/**"]).pipe(gulp.dest("dist/vendor"));
-    return gulp.src(["src/*.html"]).pipe(gulp.dest("dist"));
-});
-
-gulp.task("run-dist", function () {
+gulp.task("browserSync", ["build"], () => {
     browserSync.init({
         server: {
             baseDir: "./dist/"
@@ -118,11 +104,21 @@ gulp.task("run-dist", function () {
     })
 });
 
+// Default task
+gulp.task("default", ["build"]);
+
+// Copy all third party dependencies from node_modules to vendor directory
+gulp.task("copy", ["bootstrap", "jquery", "fontawesome", "magnificpopup"]);
+
+// build process and build testing
+gulp.task("build", ["less", "minify-css", "minify-js", "html", "images", "copy"]);
+
 // Watch Task that compiles LESS and watches for HTML or JS changes and reloads with browserSync
-gulp.task("dev", ["browserSync", "copy", "less", "minify-css", "minify-js"], function () {
-    gulp.watch("src/less/*.less", ["less"]);
-    gulp.watch("src/css/*.css", ["minify-css"]);
+gulp.task("dev", ["browserSync"], () => {
+    gulp.watch("src/less/*.less", ["less", "minify-css"]);
     gulp.watch("src/js/*.js", ["minify-js"]);
+    gulp.watch("src/*.html", ["html"]);
+    gulp.watch("src/img/**/*", ["images"]);
     // Reloads the browser whenever HTML or JS files change
     gulp.watch("src/*.html", browserSync.reload);
     gulp.watch("src/js/**/*.js", browserSync.reload);

@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- '7'
+script:
+- npm run build
+notifications:
+  slack: "$SLACK_TOKEN"
+deploy:
+  provider: s3
+  access_key_id: $S3_ACCESS_ID
+  secret_access_key: $S3_SECRET_KEY
+  bucket: theburrittcup.com
+  local-dir: dist
+  on:
+    tags: true
