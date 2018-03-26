@@ -4,7 +4,7 @@ node_js:
 script:
 - npm run build
 notifications:
-  slack: "$SLACK_TOKEN"
+  slack: $SLACK_TOKEN
 deploy:
   provider: s3
   access_key_id: $S3_ACCESS_ID
