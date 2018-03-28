@@ -27,7 +27,8 @@
     "gulp-uglify": "3.0.0",
     "jquery": "3.3.1",
     "magnific-popup": "1.1.0",
-    "rimraf": "2.6.2"
+    "rimraf": "2.6.2",
+    "upup": "1.0.0"
   },
   "repository": {
     "type": "git",

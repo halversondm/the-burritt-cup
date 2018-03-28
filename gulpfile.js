@@ -95,6 +95,13 @@ gulp.task("magnificpopup", () => {
         .pipe(gulp.dest("dist/vendor/magnific-popup"))
 });
 
+gulp.task("upup", () => {
+    return gulp.src([
+        "node_modules/upup/dist/*.js"
+    ])
+        .pipe(gulp.dest("dist"))
+});
+
 // Configure the browserSync task
 gulp.task("browserSync", ["build"], () => {
     browserSync.init({
@@ -108,7 +115,7 @@ gulp.task("browserSync", ["build"], () => {
 gulp.task("default", ["build"]);
 
 // Copy all third party dependencies from node_modules to vendor directory
-gulp.task("copy", ["bootstrap", "jquery", "fontawesome", "magnificpopup"]);
+gulp.task("copy", ["bootstrap", "jquery", "fontawesome", "magnificpopup", "upup"]);
 
 // build process and build testing
 gulp.task("build", ["less", "minify-css", "minify-js", "html", "images", "copy"]);
