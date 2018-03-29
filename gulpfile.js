@@ -20,7 +20,7 @@ const banner = ["/*!\n",
 
 // copy html files to dist directory
 gulp.task("html", () => {
-    return gulp.src("src/*.html").pipe(gulp.dest("dist"));
+    return gulp.src(["src/*.html", "src/*.json"]).pipe(gulp.dest("dist"));
 });
 
 // copy html files to dist directory
@@ -125,6 +125,7 @@ gulp.task("dev", ["browserSync"], () => {
     gulp.watch("src/less/*.less", ["less", "minify-css"]);
     gulp.watch("src/js/*.js", ["minify-js"]);
     gulp.watch("src/*.html", ["html"]);
+    gulp.watch("src/*.json", ["html"]);
     gulp.watch("src/img/**/*", ["images"]);
     // Reloads the browser whenever HTML or JS files change
     gulp.watch("src/*.html", browserSync.reload);
