@@ -6,7 +6,6 @@ const header = require("gulp-header");
 const cleanCSS = require("gulp-clean-css");
 const rename = require("gulp-rename");
 const uglify = require("gulp-uglify");
-const rimraf = require("rimraf");
 const pkg = require("./package.json");
 
 // Set the banner content
@@ -17,6 +16,11 @@ const banner = ["/*!\n",
     " */\n",
     ""
 ].join("");
+
+// copy font files to dist directory
+gulp.task("fonts", () => {
+    return gulp.src(["node_modules/typeface-lora/files/*.woff*", "node_modules/typeface-open-sans/files/*.woff*"]).pipe(gulp.dest("dist/fonts"));
+});
 
 // copy html files to dist directory
 gulp.task("html", () => {
@@ -115,7 +119,7 @@ gulp.task("browserSync", ["build"], () => {
 gulp.task("default", ["build"]);
 
 // Copy all third party dependencies from node_modules to vendor directory
-gulp.task("copy", ["bootstrap", "jquery", "fontawesome", "magnificpopup", "upup"]);
+gulp.task("copy", ["bootstrap", "jquery", "fontawesome", "magnificpopup", "upup", "fonts"]);
 
 // build process and build testing
 gulp.task("build", ["less", "minify-css", "minify-js", "html", "images", "copy"]);

@@ -33,5 +33,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/halversondm/the-burritt-cup.git"
+  },
+  "dependencies": {
+    "typeface-lora": "0.0.54",
+    "typeface-open-sans": "0.0.54"
   }
 }

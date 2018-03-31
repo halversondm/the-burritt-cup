@@ -1,14 +1,3 @@
-// Floating label headings for the contact form
-$(function() {
-    $("body").on("input propertychange", ".floating-label-form-group", function(e) {
-        $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
-    }).on("focus", ".floating-label-form-group", function() {
-        $(this).addClass("floating-label-form-group-with-focus");
-    }).on("blur", ".floating-label-form-group", function() {
-        $(this).removeClass("floating-label-form-group-with-focus");
-    });
-});
-
 // Navigation Scripts to Show Header on Scroll-Up
 jQuery(document).ready(function($) {
     var MQL = 1170;
@@ -38,25 +27,9 @@ jQuery(document).ready(function($) {
             });
     }
 
-    // Initialize and Configure Magnific Popup Lightbox Plugin
-    $('.popup-gallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        tLoading: 'Loading image #%curr%...',
-        mainClass: 'mfp-img-mobile',
-        gallery: {
-            enabled: true,
-            navigateByImgClick: true,
-            preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
-        },
-        image: {
-            tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
-            titleSrc: 'title'
-        }
-    });
-
-    $('.location-gallery').each(function () {
-        $(this).magnificPopup({
+    if (typeof $().magnificPopup === 'function') {
+        // Initialize and Configure Magnific Popup Lightbox Plugin
+        $('.popup-gallery').magnificPopup({
             delegate: 'a',
             type: 'image',
             tLoading: 'Loading image #%curr%...',
@@ -71,5 +44,40 @@ jQuery(document).ready(function($) {
                 titleSrc: 'title'
             }
         });
-    });
+
+        $('.location-gallery').each(function () {
+            $(this).magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                tLoading: 'Loading image #%curr%...',
+                mainClass: 'mfp-img-mobile',
+                gallery: {
+                    enabled: true,
+                    navigateByImgClick: true,
+                    preload: [0, 1] // Will preload 0 - before current, and 1 after the current image
+                },
+                image: {
+                    tError: '<a href="%url%">The image #%curr%</a> could not be loaded.',
+                    titleSrc: 'title'
+                }
+            });
+        });
+    }
+});
+
+UpUp.start({
+    'content-url': 'index.html',
+    'assets': [
+        "upup.min.js",
+        "vendor/bootstrap/css/bootstrap.min.css",
+        "vendor/font-awesome/css/font-awesome.min.css",
+        "vendor/jquery/jquery.min.js",
+        "vendor/bootstrap/js/bootstrap.min.js",
+        "css/clean-blog.min.css",
+        "js/clean-blog.min.js",
+        "awards.html",
+        "locations.html",
+        "players.html",
+        "img/logo.jpg"
+    ]
 });
