@@ -44,7 +44,7 @@ gulp.task("less", () => {
 });
 
 // Minify CSS
-gulp.task("minify-css", ["less"], () => {
+gulp.task("minify-css", gulp.series(["less"]), () => {
     return gulp.src("dist/css/clean-blog.css")
         .pipe(cleanCSS({compatibility: "ie8"}))
         .pipe(rename({suffix: ".min"}))
@@ -106,8 +106,15 @@ gulp.task("upup", () => {
         .pipe(gulp.dest("dist"))
 });
 
+// Copy all third party dependencies from node_modules to vendor directory
+gulp.task("copy", gulp.series(["bootstrap", "jquery", "fontawesome", "magnificpopup", "upup", "fonts"]));
+
+// build process and build testing
+gulp.task("build", gulp.series(["less", "minify-css", "minify-js", "html", "images", "copy"]));
+
+
 // Configure the browserSync task
-gulp.task("browserSync", ["build"], () => {
+gulp.task("browserSync", gulp.series(["build"]), () => {
     browserSync.init({
         server: {
             baseDir: "./dist/"
@@ -115,17 +122,8 @@ gulp.task("browserSync", ["build"], () => {
     })
 });
 
-// Default task
-gulp.task("default", ["build"]);
-
-// Copy all third party dependencies from node_modules to vendor directory
-gulp.task("copy", ["bootstrap", "jquery", "fontawesome", "magnificpopup", "upup", "fonts"]);
-
-// build process and build testing
-gulp.task("build", ["less", "minify-css", "minify-js", "html", "images", "copy"]);
-
 // Watch Task that compiles LESS and watches for HTML or JS changes and reloads with browserSync
-gulp.task("dev", ["browserSync"], () => {
+gulp.task("dev", gulp.series(["browserSync"]), () => {
     gulp.watch("src/less/*.less", ["less", "minify-css"]);
     gulp.watch("src/js/*.js", ["minify-js"]);
     gulp.watch("src/*.html", ["html"]);
