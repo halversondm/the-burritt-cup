@@ -7,6 +7,8 @@ import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import Main from "./Main";
 import Locations from './Locations';
+import Players from './Players';
+import Awards from './Awards';
 import './App.css';
 
 class App extends Component {
@@ -38,6 +40,8 @@ class App extends Component {
           <Switch>
             <Route path="/" exact component={Main} />
             <Route path="/locations" component={Locations} />
+            <Route path="/players" component={Players} />
+            <Route path="/awards" component={Awards} />
           </Switch>
           <hr />
           <footer>

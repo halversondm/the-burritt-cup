@@ -52,54 +52,6 @@ class Locations extends Component {
                     <div className="col-lg-8 col-md-10">
                         <div className="post-preview">
                             <h2 className="post-title">
-                                2009
-                    </h2>
-                            <h3 className="post-subtitle">
-                                Fox Hills Resort - Mishicot, Wisconsin
-                    </h3>
-                            <p className="post-meta"></p>
-                            <div className="location-gallery">
-                                <a href="img/full/fox_hills_2009_2.jpg"
-                                    title="(L to R) Brian Zimmerman, Dave Kakareka, Owen Burritt, Kyle Burritt, Jacob Riebe, Clint Delee, Nat DeRose">
-                                    <img className="head" src="./img/full/fox_hills_2009_2.jpg" alt="Fox Hills 2" />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div className="row justify-content-center">
-                    <div className="col-lg-8 col-md-10">
-                        <div className="post-preview">
-                            <h2 className="post-title">
-                                2010
-                    </h2>
-                            <h3 className="post-subtitle">
-                                Gull Lake Resort - Augusta, Michigan
-                    </h3>
-                            <p className="post-meta"></p>
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div className="row justify-content-center">
-                    <div className="col-lg-8 col-md-10">
-                        <div className="post-preview">
-                            <h2 className="post-title">
-                                2011
-                    </h2>
-                            <h3 className="post-subtitle">
-                                Devil's Head - Merrimac, Wisconsin
-                    </h3>
-                            <p className="post-meta"></p>
-                        </div>
-                    </div>
-                </div>
-                <hr />
-                <div className="row justify-content-center">
-                    <div className="col-lg-8 col-md-10">
-                        <div className="post-preview">
-                            <h2 className="post-title">
                                 2012
                     </h2>
                             <h3 className="post-subtitle">
