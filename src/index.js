@@ -8,7 +8,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import * as $ from 'jquery';
-import 'magnific-popup';
+import * as magnificPopup from 'magnific-popup';
 import 'magnific-popup/dist/magnific-popup.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));

@@ -11,14 +11,14 @@ class Locations extends Component {
         this.state = {
             locations: [
                 {
-                    "title": "",
-                    "subtitle": "",
-                    "metatitle": "",
-                    "images": [
+                    title: "",
+                    subtitle: "",
+                    metatitle: "",
+                    images: [
                         {
-                            "location": "",
-                            "title": "",
-                            "alt": ""
+                            location: "",
+                            title: "",
+                            alt: ""
                         }
                     ]
                 }
