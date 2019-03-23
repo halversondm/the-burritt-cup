@@ -1,0 +1,132 @@
+[
+    {
+        "image": "img/full/owen_full.jpg",
+        "thumbnail": "./img/thumbnails/owen_head.jpg",
+        "alt": "Owen Burritt",
+        "name": "Owen Burritt",
+        "office": "Burritt Cup Commissioner",
+        "hometown": "Bartlett, Illinois",
+        "nickname": "Hook",
+        "about": "Owen likes to hit left. Hence the nickname."
+    },
+    {
+        "image": "img/full/kyle_full.jpg",
+        "thumbnail": "./img/thumbnails/kyle_head.jpg",
+        "alt": "Kyle Burritt",
+        "name": "Kyle Burritt",
+        "office": "Burritt Cup Rules Committee",
+        "hometown": "Lombard, Illinois",
+        "nickname": "Hooteria",
+        "about": "As the story goes, Kyle earned his nickname for a run in with some bad Hooters wings. He had to make an emergency stop during the first hole during the 2014 Cup Weekend."
+    },
+    {
+        "image": "img/full/clint_full.jpg",
+        "thumbnail": "./img/thumbnails/clint_head.jpg",
+        "alt": "Clint Delee",
+        "name": "Clint Delee",
+        "office": "",
+        "hometown": "South Elgin, Illinois",
+        "nickname": "Loud",
+        "about": "HELLO! Clint is famous for making loud responses or comments so the nickname is well earned."
+    },
+    {
+        "image": "img/full/nat_full.jpg",
+        "thumbnail": "./img/thumbnails/nat_head.jpg",
+        "alt": "Nat DeRose",
+        "name": "Nat DeRose",
+        "office": "",
+        "hometown": "Wheaton, Illinois",
+        "nickname": "Up All Night",
+        "about": "Nat seems to be the first one to fall asleep during our activities. During the 2014 Cup Weekend, he fell asleep outside at a fire pit behind the hotel."
+    },
+    {
+        "image": "img/full/kevin_full.jpg",
+        "thumbnail": "./img/thumbnails/kevin_head.jpg",
+        "alt": "Kevin Eck",
+        "name": "Kevin Eck",
+        "office": "",
+        "hometown": "Berwyn, Illinois",
+        "nickname": "Pants",
+        "about": "Kevin is quite possibly the best dressed player of the group. I believe he mentioned that he's got 14 pairs of golf shoes. SHOES! You'll never see him in shorts so he earned the name Pants easily."
+    },
+    {
+        "image": "img/full/dan_full.jpg",
+        "thumbnail": "./img/thumbnails/dan_head.jpg",
+        "alt": "Dan Halverson",
+        "name": "Dan Halverson",
+        "office": "Burritt Cup Historian",
+        "hometown": "Aurora, Illinois",
+        "nickname": "Shotgun",
+        "about": "Click-Click-Pull ... or what Dan's flat stick sounds like on the greens hence the nickname."
+    },
+    {
+        "image": "img/full/jason_full.jpg",
+        "thumbnail": "./img/thumbnails/jason_head.jpg",
+        "alt": "Jason Lane",
+        "name": "Jason Lane",
+        "office": "",
+        "hometown": "Plainfield, Illinois",
+        "nickname": "Bear",
+        "about": "He snores like a Bear so the nickname. Current reports during the 2016 Cup Weekend point to an alleviation of the snoring due to 'My Pillow'. He may need a new nickname."
+    },
+    {
+        "image": "img/full/dave_full.jpg",
+        "thumbnail": "./img/thumbnails/dave_head.jpg",
+        "alt": "Dave Kakareka",
+        "name": "Dave Kakareka",
+        "office": "",
+        "hometown": "Chicago, Illinois",
+        "nickname": "Firepit",
+        "about": "Finally a nickname!"
+    },
+    {
+        "image": "img/full/jacob_full.jpg",
+        "thumbnail": "./img/thumbnails/jacob_head.jpg",
+        "alt": "Jacob Riebe",
+        "name": "Jacob Riebe",
+        "office": "",
+        "hometown": "New Lenox, Illinois",
+        "nickname": "O-ke-doke",
+        "about": "You know, like the cheese popcorn. Jake really likes it and ate a bag in one sitting during a Cup Weekend."
+    },
+    {
+        "image": "img/full/sean_full.jpg",
+        "thumbnail": "./img/thumbnails/sean_head.jpg",
+        "alt": "Sean Smith",
+        "name": "Sean Smith",
+        "office": "",
+        "hometown": "Bartlett, Illinois",
+        "nickname": "Irish Nachos",
+        "about": "Sean made his Cup debut in 2017. He even took home an award in his first year out. We'll be looking for lower scores next year and more hardware for Sean to take home. No nickname yet as he flew under the radar of the Crew's watchful eye for strange behavior."
+    },
+    {
+        "image": "img/full/mike_full.jpg",
+        "thumbnail": "./img/thumbnails/mike_head.jpg",
+        "alt": "Mike Robey",
+        "name": "Mike Robey",
+        "office": "",
+        "hometown": "Casey, Illinois",
+        "nickname": "Libman",
+        "about": "Mike made his Cup debut in 2018. In his first year, he took home the prestigious broken club, High Round Award."
+    },
+    {
+        "image": "img/full/jim_full.jpg",
+        "thumbnail": "./img/thumbnails/jim_head.jpg",
+        "alt": "Jim Kopitke",
+        "name": "Jim Kopitke",
+        "office": "",
+        "hometown": "Bartlett, Illinois",
+        "nickname": "Red Eye",
+        "about": "Jim made his Cup debut in 2018. Jim's nickname comes from the fact that 'red eyed' back to Chicago from LAX to be part of the Burritt Cup. We like dedication!"
+    },
+    {
+        "image": "img/full/justin_full.jpg",
+        "thumbnail": "./img/thumbnails/justin_head.jpg",
+        "alt": "Justin Niekamp",
+        "name": "Justin Niekamp",
+        "office": "",
+        "hometown": "Pingree Grove, Illinois",
+        "nickname": "TBD",
+        "about": "Justin made his Cup debut in 2018."
+    }
+]

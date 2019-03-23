@@ -5,7 +5,7 @@
         "metatitle": "The Inaugural Burritt Cup Weekend",
         "images": [
             {
-                "location": "img/full/Swan_Lake_2006_1.JPG",
+                "location": "./img/full/Swan_Lake_2006_1.JPG",
                 "title": "(L to R) Owen Burritt, Brian Zimmerman, Dan Coulter and Kyle Burritt",
                 "alt": "Swan Lake 2006"
             }
@@ -396,7 +396,7 @@
             },
             {
                 "location": "img/full/swan_lake_2017_13.jpg",
-                "title": "an and the Cup",
+                "title": "Dan and the Cup",
                 "alt": "Swan Lake 2017 13"
             },
             {
@@ -421,7 +421,7 @@
             },
             {
                 "location": "img/full/swan_lake_2017_22.jpg",
-                "title": "Most Pars winnder Owen Burritt",
+                "title": "Most Pars winner Owen Burritt",
                 "alt": "Swan Lake 2017 22"
             },
             {
@@ -438,11 +438,6 @@
                 "location": "img/full/swan_lake_2017_25.jpg",
                 "title": "We are the Champions!  Jacob Riebe, Dan Halverson and Kyle Burritt",
                 "alt": "Swan Lake 2017 25"
-            },
-            {
-                "location": "img/full/swan_lake_2017_1.jpg",
-                "title": "",
-                "alt": "Swan Lake 2017 1"
             }
         ]
     },
