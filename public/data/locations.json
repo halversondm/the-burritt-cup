@@ -443,7 +443,12 @@
     },
     {
         "title": "2018",
-        "subtitle": "Lake Lawn Lodge - Delavan, WI (lodging and Friday Round) <br /> Hawk's View - Lake Geneva, WI (morning round Saturday) <br /> Barn Hollow - Lake Geneva, WI (Burritt Cup championship round) <br /> Abbey Springs - Fontana, WI (morning round Sunday) <br />",
+        "subtitle": [
+            "Lake Lawn Lodge - Delavan, WI (lodging and Friday Round)",
+            "Hawk's View - Lake Geneva, WI (morning round Saturday)",
+            "Barn Hollow - Lake Geneva, WI (Burritt Cup championship round)",
+            "Abbey Springs - Fontana, WI (morning round Sunday)"
+        ],
         "metatitle": "",
         "summary": "This was definitely a banner year for the Burritt Cup. The players played at four distinct courses, the Burritt Cup round was played on a Par 3 course and three new players were added to the roster!",
         "awards": [

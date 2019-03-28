@@ -53,7 +53,7 @@ class Post extends Component {
                     <Col lg={8} md={10}>
                         <div className="post-preview">
                             <h2 className="post-title">{this.props.title}</h2>
-                            <h3 className="post-subtitle">{this.props.subtitle}</h3>
+                            <h3 className="post-subtitle">{Array.isArray(this.props.subtitle) ? this.props.subtitle.map((desc, i) => { return (<div key={i}>{desc}<br /></div>); }) : this.props.subtitle}</h3>
                             <p className="post-meta">{this.props.metatitle}</p>
                             {this.props.summary !== "" ? <p className="post-meta"><u>Summary</u><br />{this.props.summary}</p> : null}
                             {this.props.awards.length > 0 ?
@@ -66,15 +66,13 @@ class Post extends Component {
                                 : null
                             }
                             {this.props.images.length > 0 ? <p className="post-meta"><u>Photo Gallery</u></p> : null}
-                            <div className="location-gallery">
-                                {this.props.images.map((image, i) => {
-                                    return (
-                                        <a href={image.location} title={image.title} key={i} data-i={i} onClick={this.openLightbox}>
-                                            <img className="head" src={image.location} alt={image.alt} />
-                                        </a>
-                                    );
-                                })}
-                            </div>
+                            {this.props.images.map((image, i) => {
+                                return (
+                                    <a href={image.location} title={image.title} key={i} data-i={i} onClick={this.openLightbox}>
+                                        <img className="head" src={image.location} alt={image.alt} />
+                                    </a>
+                                );
+                            })}
                             <Lightbox images={LIGHTBOX_IMAGES} onClose={this.closeLightbox}
                                 onClickPrev={this.gotoPrevious}
                                 onClickNext={this.gotoNext}
@@ -90,7 +88,7 @@ class Post extends Component {
 
 Post.propTypes = {
     title: PropTypes.string,
-    subtitle: PropTypes.string,
+    subtitle: PropTypes.any,
     metatitle: PropTypes.string,
     images: PropTypes.array,
     awards: PropTypes.array,

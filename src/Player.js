@@ -34,11 +34,9 @@ class Player extends Component {
                     <Col lg={8} md={10}>
                         <div className="post-preview">
                             <h2 className="post-title">
-                                <div className="popup-gallery">
-                                    <a href={this.props.image} onClick={this.openLightbox}>
-                                        <img className="head" src={this.props.thumbnail} alt={this.props.alt} />
-                                    </a> {this.props.name}
-                                </div>
+                                <a href={this.props.image} onClick={this.openLightbox}>
+                                    <img className="head" src={this.props.thumbnail} alt={this.props.alt} />
+                                </a> {this.props.name}
                             </h2>
                             {this.props.office !== "" ? <h3 className="post-subtitle">{this.props.office}</h3> : null}
                             <h4 className="post-subtitle">
@@ -46,8 +44,8 @@ class Player extends Component {
                             </h4>
                             <p className="post-meta">{this.props.about}</p>
                         </div>
-                        <Lightbox images={[{src: this.props.image}]} onClose={this.closeLightbox}
-                                isOpen={this.state.lightboxIsOpen} />
+                        <Lightbox images={[{ src: this.props.image }]} onClose={this.closeLightbox}
+                            isOpen={this.state.lightboxIsOpen} />
                     </Col>
                 </Row>
             </div>
