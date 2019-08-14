@@ -7,6 +7,10 @@
         "metatitle": "This Cup is the goal of the weekend. The bragging rights for the next year go to the winners of the Cup. Teams are chosen at random and vary from year to year.",
         "winners": [
             {
+              "year": "2019",
+              "name": "Kyle Burritt, Sean Smith, Jim Kopitke, and Justin Niekamp"
+            },
+          {
                 "year": "2018",
                 "name": "Clint Delee, Jacob Riebe, and Dave Kakareka"
             },
@@ -36,6 +40,10 @@
         "metatitle": "This award goes to the player who cards the lowest round out of three on the weekend.",
         "winners": [
             {
+              "year": "2019",
+              "name": "Kevin Eck"
+            },
+          {
                 "year": "2018",
                 "name": "Kevin Eck"
             },
@@ -69,6 +77,10 @@
         "metatitle": "This award goes to the player with the most pars over three rounds of golf.",
         "winners": [
             {
+              "year": "2019",
+              "name": "Jacob Riebe"
+            },
+          {
                 "year": "2018",
                 "name": "Kyle Burritt"
             },
@@ -106,6 +118,10 @@
         "metatitle": "This award goes to the player with the most bogies over three rounds of golf.",
         "winners": [
             {
+              "year": "2019",
+              "name": "Tie: Kyle Burritt and Kevin Eck"
+            },
+          {
                 "year": "2018",
                 "name": "Jacob Riebe"
             },
@@ -143,6 +159,10 @@
         "metatitle": "This award goes to the player with the highest round over three rounds of golf.",
         "winners": [
             {
+              "year": "2019",
+              "name": "Dan Halverson"
+            },
+          {
                 "year": "2018",
                 "name": "Mike Robey"
             },

@@ -128,5 +128,15 @@
         "hometown": "Pingree Grove, Illinois",
         "nickname": "TBD",
         "about": "Justin made his Cup debut in 2018."
+    },
+  {
+    "image": "img/full/scott_full.jpg",
+    "thumbnail": "./img/thumbnails/scott_head.jpg",
+    "alt": "Scott Barnica",
+    "name": "Scott Barnica",
+    "office": "",
+    "hometown": "Pingree Grove, Illinois",
+    "nickname": "TBD",
+    "about": "Scott made his Cup debut in 2019."
     }
 ]
