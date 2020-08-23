@@ -1,212 +1,253 @@
 [
-    {
-        "image": "./img/full/the_cup.jpg",
-        "alt": "The Burritt Cup",
-        "title": "The Burritt Cup",
-        "subtitle": "In all it's glory",
-        "metatitle": "This Cup is the goal of the weekend. The bragging rights for the next year go to the winners of the Cup. Teams are chosen at random and vary from year to year.",
-        "winners": [
-            {
-              "year": "2019",
-              "name": "Kyle Burritt, Sean Smith, Jim Kopitke, and Justin Niekamp"
-            },
-          {
-                "year": "2018",
-                "name": "Clint Delee, Jacob Riebe, and Dave Kakareka"
-            },
-            {
-                "year": "2017",
-                "name": "Kyle Burritt, Jacob Riebe, and Dan Halverson"
-            },
-            {
-                "year": "2016",
-                "name": "Clint Delee, Nat DeRose, and Jason Lane"
-            },
-            {
-                "year": "2015",
-                "name": "Nat DeRose, Jason Lane, Kevin Eck, and Jacob Riebe"
-            },
-            {
-                "year": "2014",
-                "name": "Nat DeRose, Clint Delee, Jason Lane, and Kyle Burritt"
-            }
-        ]
-    },
-    {
-        "image": "./img/full/low_round.jpg",
-        "alt": "Low Round",
-        "title": "Low Round",
-        "subtitle": "To the player, who shoots like a Tour player.",
-        "metatitle": "This award goes to the player who cards the lowest round out of three on the weekend.",
-        "winners": [
-            {
-              "year": "2019",
-              "name": "Kevin Eck"
-            },
-          {
-                "year": "2018",
-                "name": "Kevin Eck"
-            },
-            {
-                "year": "2017",
-                "name": "Kyle Burritt"
-            },
-            {
-                "year": "2016",
-                "name": "Kevin Eck"
-            },
-            {
-                "year": "2015",
-                "name": "Kevin Eck"
-            },
-            {
-                "year": "2014",
-                "name": "Clint Delee"
-            },
-            {
-                "year": "2013",
-                "name": "Kevin Eck"
-            }
-        ]
-    },
-    {
-        "image": "./img/full/most_pars.jpg",
-        "alt": "Most Pars",
-        "title": "Most Pars",
-        "subtitle": "To the player, who's working towards the Tour Card.",
-        "metatitle": "This award goes to the player with the most pars over three rounds of golf.",
-        "winners": [
-            {
-              "year": "2019",
-              "name": "Jacob Riebe"
-            },
-          {
-                "year": "2018",
-                "name": "Kyle Burritt"
-            },
-            {
-                "year": "2017",
-                "name": "Owen Burritt"
-            },
-            {
-                "year": "2016",
-                "name": "Kevin Eck"
-            },
-            {
-                "year": "2015",
-                "name": "Kevin Eck"
-            },
-            {
-                "year": "2014",
-                "name": "Clint Delee"
-            },
-            {
-                "year": "2013",
-                "name": "Kevin Eck"
-            },
-            {
-                "year": "2012",
-                "name": "Kyle Burritt"
-            }
-        ]
-    },
-    {
-        "image": "./img/full/most_bogies.jpg",
-        "alt": "Most Bogies",
-        "title": "Most Bogies",
-        "subtitle": "To the player, who's trailing the money on the Web.com Tour.",
-        "metatitle": "This award goes to the player with the most bogies over three rounds of golf.",
-        "winners": [
-            {
-              "year": "2019",
-              "name": "Tie: Kyle Burritt and Kevin Eck"
-            },
-          {
-                "year": "2018",
-                "name": "Jacob Riebe"
-            },
-            {
-                "year": "2017",
-                "name": "Jacob Riebe"
-            },
-            {
-                "year": "2016",
-                "name": "Clint Delee"
-            },
-            {
-                "year": "2015",
-                "name": "Owen Burritt"
-            },
-            {
-                "year": "2014",
-                "name": "Owen Burritt"
-            },
-            {
-                "year": "2013",
-                "name": "Owen Burritt"
-            },
-            {
-                "year": "2012",
-                "name": "Clint Delee"
-            }
-        ]
-    },
-    {
-        "image": "./img/full/high_round.jpg",
-        "alt": "High Round",
-        "title": "High Round",
-        "subtitle": "To the player who's hacking away at the range, but sucking on the course.",
-        "metatitle": "This award goes to the player with the highest round over three rounds of golf.",
-        "winners": [
-            {
-              "year": "2019",
-              "name": "Dan Halverson"
-            },
-          {
-                "year": "2018",
-                "name": "Mike Robey"
-            },
-            {
-                "year": "2017",
-                "name": "Dan Halverson"
-            },
-            {
-                "year": "2016",
-                "name": "Dan Halverson"
-            },
-            {
-                "year": "2015",
-                "name": "Dan Halverson"
-            },
-            {
-                "year": "2014",
-                "name": "Dan Halverson"
-            },
-            {
-                "year": "2013",
-                "name": "Dave Kakareka"
-            }
-        ]
-    },
-    {
-        "image": "",
-        "alt": "",
-        "title": "Most Hazards",
-        "subtitle": "To the player, who's working on his aim, but is just not there yet.",
-        "metatitle": "This award goes to the player with the most number of hazards hit over three rounds of golf.",
-        "winners": [
-            {
-                "year": "2018",
-                "name": "Not Awarded"
-            },
-            {
-                "year": "2017",
-                "name": "Sean Smith"
-            },
-            {
-                "year": "2016",
-                "name": "Nat DeRose"
-            }
-        ]
-    }
+  {
+    "image": "./img/full/the_cup.jpg",
+    "alt": "The Burritt Cup",
+    "title": "The Burritt Cup",
+    "subtitle": "In all it's glory",
+    "metatitle": "This Cup is the goal of the weekend. The bragging rights for the next year go to the winners of the Cup. Teams are chosen at random and vary from year to year.",
+    "winners": [
+      {
+        "year": "2020",
+        "name": "Owen Burritt, Dan Halverson, Jacob Riebe and Scott Barnica"
+      },
+      {
+        "year": "2019",
+        "name": "Kyle Burritt, Sean Smith, Jim Kopitke, and Justin Niekamp"
+      },
+      {
+        "year": "2018",
+        "name": "Clint Delee, Jacob Riebe, and Dave Kakareka"
+      },
+      {
+        "year": "2017",
+        "name": "Kyle Burritt, Jacob Riebe, and Dan Halverson"
+      },
+      {
+        "year": "2016",
+        "name": "Clint Delee, Nat DeRose, and Jason Lane"
+      },
+      {
+        "year": "2015",
+        "name": "Nat DeRose, Jason Lane, Kevin Eck, and Jacob Riebe"
+      },
+      {
+        "year": "2014",
+        "name": "Nat DeRose, Clint Delee, Jason Lane, and Kyle Burritt"
+      }
+    ]
+  },
+  {
+    "image": "./img/full/low_round.jpg",
+    "alt": "Low Round",
+    "title": "Low Round",
+    "subtitle": "To the player, who shoots like a Tour player.",
+    "metatitle": "This award goes to the player who cards the lowest round out of three on the weekend.",
+    "winners": [
+      {
+        "year": "2020",
+        "name": "Not Awarded"
+      },
+      {
+        "year": "2019",
+        "name": "Kevin Eck"
+      },
+      {
+        "year": "2018",
+        "name": "Kevin Eck"
+      },
+      {
+        "year": "2017",
+        "name": "Kyle Burritt"
+      },
+      {
+        "year": "2016",
+        "name": "Kevin Eck"
+      },
+      {
+        "year": "2015",
+        "name": "Kevin Eck"
+      },
+      {
+        "year": "2014",
+        "name": "Clint Delee"
+      },
+      {
+        "year": "2013",
+        "name": "Kevin Eck"
+      }
+    ]
+  },
+  {
+    "image": "./img/full/most_pars.jpg",
+    "alt": "Most Pars",
+    "title": "Most Pars",
+    "subtitle": "To the player, who's working towards the Tour Card.",
+    "metatitle": "This award goes to the player with the most pars over three rounds of golf.",
+    "winners": [
+      {
+        "year": "2020",
+        "name": "Not Awarded"
+      },
+      {
+        "year": "2019",
+        "name": "Jacob Riebe"
+      },
+      {
+        "year": "2018",
+        "name": "Kyle Burritt"
+      },
+      {
+        "year": "2017",
+        "name": "Owen Burritt"
+      },
+      {
+        "year": "2016",
+        "name": "Kevin Eck"
+      },
+      {
+        "year": "2015",
+        "name": "Kevin Eck"
+      },
+      {
+        "year": "2014",
+        "name": "Clint Delee"
+      },
+      {
+        "year": "2013",
+        "name": "Kevin Eck"
+      },
+      {
+        "year": "2012",
+        "name": "Kyle Burritt"
+      }
+    ]
+  },
+  {
+    "image": "./img/full/most_bogies.jpg",
+    "alt": "Most Bogies",
+    "title": "Most Bogies",
+    "subtitle": "To the player, who's trailing the money on the Web.com Tour.",
+    "metatitle": "This award goes to the player with the most bogies over three rounds of golf.",
+    "winners": [
+      {
+        "year": "2020",
+        "name": "Not Awarded"
+      },
+      {
+        "year": "2019",
+        "name": "Tie: Kyle Burritt and Kevin Eck"
+      },
+      {
+        "year": "2018",
+        "name": "Jacob Riebe"
+      },
+      {
+        "year": "2017",
+        "name": "Jacob Riebe"
+      },
+      {
+        "year": "2016",
+        "name": "Clint Delee"
+      },
+      {
+        "year": "2015",
+        "name": "Owen Burritt"
+      },
+      {
+        "year": "2014",
+        "name": "Owen Burritt"
+      },
+      {
+        "year": "2013",
+        "name": "Owen Burritt"
+      },
+      {
+        "year": "2012",
+        "name": "Clint Delee"
+      }
+    ]
+  },
+  {
+    "image": "./img/full/high_round.jpg",
+    "alt": "High Round",
+    "title": "High Round",
+    "subtitle": "To the player who's hacking away at the range, but sucking on the course.",
+    "metatitle": "This award goes to the player with the highest round over three rounds of golf.",
+    "winners": [
+      {
+        "year": "2020",
+        "name": "Dan Halverson"
+      },
+      {
+        "year": "2019",
+        "name": "Dan Halverson"
+      },
+      {
+        "year": "2018",
+        "name": "Mike Robey"
+      },
+      {
+        "year": "2017",
+        "name": "Dan Halverson"
+      },
+      {
+        "year": "2016",
+        "name": "Dan Halverson"
+      },
+      {
+        "year": "2015",
+        "name": "Dan Halverson"
+      },
+      {
+        "year": "2014",
+        "name": "Dan Halverson"
+      },
+      {
+        "year": "2013",
+        "name": "Dave Kakareka"
+      }
+    ]
+  },
+  {
+    "image": "",
+    "alt": "",
+    "title": "Most Hazards",
+    "subtitle": "To the player, who's working on his aim, but is just not there yet.",
+    "metatitle": "This award goes to the player with the most number of hazards hit over three rounds of golf.",
+    "winners": [
+      {
+        "year": "2020",
+        "name": "Not Awarded"
+      },
+      {
+        "year": "2019",
+        "name": "Not Awarded"
+      },
+      {
+        "year": "2018",
+        "name": "Not Awarded"
+      },
+      {
+        "year": "2017",
+        "name": "Sean Smith"
+      },
+      {
+        "year": "2016",
+        "name": "Nat DeRose"
+      }
+    ]
+  },
+  {
+    "image": "",
+    "alt": "",
+    "title": "Longest Drive",
+    "subtitle": "Bryson DeChambreau wouldn't be impressed, but we are by how long this cupper hits.",
+    "metatitle": "This award goes to the player with the furthest drive on a given hole during the weekend.",
+    "winners": [
+      {
+        "year": "2020",
+        "name": "Jim Kopitke"
+      }
+    ]
+  }
 ]
