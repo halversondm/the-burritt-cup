@@ -30,4 +30,5 @@ jobs:
         uses: reggionick/s3-deploy@v3
         with:
           bucket: ${{ secrets.AWS_BUCKET }}
+          bucket-region: 'us-east-1'
           folder: 'build'
