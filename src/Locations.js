@@ -26,10 +26,10 @@ class Locations extends React.Component {
         }
     }
 
-    componentWillMount() {
+    componentDidMount() {
         fetch('data/locations.json')
             .then(response => response.json())
-            .then(json => this.setState({ locations: json }));
+            .then(json => this.setState({locations: json}));
     }
 
     render() {
