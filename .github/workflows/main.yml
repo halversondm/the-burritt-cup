@@ -1,8 +1,9 @@
-name: Build Code
+name: Test and Build
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - '*'
   pull_request:
     branches: [ master ]
 
@@ -11,9 +12,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
@@ -21,7 +19,11 @@ jobs:
         uses: actions/setup-node@v2.4.1
         with:
           node-version: '14'
-      - name: Install Dependencies 
+      - name: Install Dependencies
         run: npm install
+      - name: Test Code
+        if: ${{ success() }}
+        run: npm run test
       - name: Build Code
-        run: npm run test && npm run build
+        if: ${{ success() }}
+        run: npm run build
