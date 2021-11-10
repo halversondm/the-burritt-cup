@@ -1,18 +1,19 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import PropTypes from 'prop-types';
 
-class Award extends Component {
+class Award extends React.Component {
 
     render() {
         return (
             <div>
-                <hr />
+                <hr/>
                 <Row className="justify-content-center">
                     <Col lg={8} md={10}>
                         <div className="post-preview">
-                            {this.props.image !== "" ? <img className="img-responsive" src={this.props.image} alt={this.props.alt} /> : null}
+                            {this.props.image !== "" ?
+                                <img className="img-responsive" src={this.props.image} alt={this.props.alt}/> : null}
                             <h2 className="post-title">{this.props.title}</h2>
                             <h4 className="post-subtitle">{this.props.subtitle}</h4>
                             <p className="post-meta">{this.props.metatitle}</p>

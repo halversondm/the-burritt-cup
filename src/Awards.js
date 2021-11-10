@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import Award from './Award';
 
-class Awards extends Component {
+class Awards extends React.Component {
 
     constructor(props) {
         super(props);
@@ -27,10 +27,10 @@ class Awards extends Component {
         };
     }
 
-    componentWillMount() {
+    componentDidMount() {
         fetch('data/awards.json')
             .then(response => response.json())
-            .then(json => this.setState({ awards: json }));
+            .then(json => this.setState({awards: json}));
     }
 
     render() {

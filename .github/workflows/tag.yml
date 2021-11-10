@@ -1,10 +1,9 @@
-name: Build Code
+name: Build and Publish to S3
 
 on:
   push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+    tags:
+      - '*'
 
   workflow_dispatch:
 
@@ -21,7 +20,14 @@ jobs:
         uses: actions/setup-node@v2.4.1
         with:
           node-version: '14'
-      - name: Install Dependencies 
+      - name: Install Dependencies
         run: npm install
       - name: Build Code
         run: npm run test && npm run build
+      - name: Deploy to S3
+        if: ${{ success() }}
+        uses: reggionick/s3-deploy@v3
+        with:
+          bucket: ${{ secrets.AWS_BUCKET }}
+          bucket-region: 'us-east-1'
+          folder: 'build'

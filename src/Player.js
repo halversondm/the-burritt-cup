@@ -1,14 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import PropTypes from 'prop-types';
-import Lightbox from 'react-images';
+import Lightbox, {Modal, ModalGateway} from 'react-images';
 
-class Player extends Component {
+class Player extends React.Component {
 
     constructor(props) {
         super(props);
-        this.state = { lightboxIsOpen: false };
+        this.state = {lightboxIsOpen: false};
         this.closeLightbox = this.closeLightbox.bind(this);
         this.openLightbox = this.openLightbox.bind(this);
     }
@@ -27,25 +27,31 @@ class Player extends Component {
     }
 
     render() {
+        const {lightboxIsOpen} = this.state;
         return (
             <div>
-                <hr />
+                <hr/>
                 <Row className="justify-content-center">
                     <Col lg={8} md={10}>
                         <div className="post-preview">
                             <h2 className="post-title">
                                 <a href={this.props.image} onClick={this.openLightbox}>
-                                    <img className="head" src={this.props.thumbnail} alt={this.props.alt} />
+                                    <img className="head" src={this.props.thumbnail} alt={this.props.alt}/>
                                 </a> {this.props.name}
                             </h2>
                             {this.props.office !== "" ? <h3 className="post-subtitle">{this.props.office}</h3> : null}
                             <h4 className="post-subtitle">
-                                Hometown: {this.props.hometown} <br /> Nickname: {this.props.nickname} <br />
+                                Hometown: {this.props.hometown} <br/> Nickname: {this.props.nickname} <br/>
                             </h4>
                             <p className="post-meta">{this.props.about}</p>
                         </div>
-                        <Lightbox images={[{ src: this.props.image }]} onClose={this.closeLightbox}
-                            isOpen={this.state.lightboxIsOpen} />
+                        <ModalGateway>
+                            {lightboxIsOpen ?
+                                <Modal onClose={this.closeLightbox}>
+                                    <Lightbox views={[{source: this.props.image}]}/>
+                                </Modal>
+                                : null}
+                        </ModalGateway>
                     </Col>
                 </Row>
             </div>

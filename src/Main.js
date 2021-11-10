@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-class Main extends Component {
+class Main extends React.Component {
     render() {
         return (
             <div className="container">
@@ -9,7 +9,7 @@ class Main extends Component {
                         <div className="post-preview">
                             <h2 className="post-title">
                                 Welcome to The Burritt Cup
-                    </h2>
+                            </h2>
                             <h3 className="post-subtitle">
                                 What is The Burritt Cup?
                     </h3>

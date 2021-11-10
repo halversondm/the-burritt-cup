@@ -7,6 +7,10 @@
     "metatitle": "This Cup is the goal of the weekend. The bragging rights for the next year go to the winners of the Cup. Teams are chosen at random and vary from year to year.",
     "winners": [
       {
+        "year": "2021",
+        "name": "Clint Delee, Mike Robey, and Scott Barnica"
+      },
+      {
         "year": "2020",
         "name": "Owen Burritt, Dan Halverson, Jacob Riebe and Scott Barnica"
       },
@@ -43,6 +47,10 @@
     "subtitle": "To the player, who shoots like a Tour player.",
     "metatitle": "This award goes to the player who cards the lowest round out of three on the weekend.",
     "winners": [
+      {
+        "year": "2021",
+        "name": "Jacob Riebe"
+      },
       {
         "year": "2020",
         "name": "Not Awarded"
@@ -84,6 +92,10 @@
     "subtitle": "To the player, who's working towards the Tour Card.",
     "metatitle": "This award goes to the player with the most pars over three rounds of golf.",
     "winners": [
+      {
+        "year": "2020",
+        "name": "Clint Delee"
+      },
       {
         "year": "2020",
         "name": "Not Awarded"
@@ -130,6 +142,10 @@
     "metatitle": "This award goes to the player with the most bogies over three rounds of golf.",
     "winners": [
       {
+        "year": "2022",
+        "name": "Jacob Riebe"
+      },
+      {
         "year": "2020",
         "name": "Not Awarded"
       },
@@ -174,6 +190,10 @@
     "subtitle": "To the player who's hacking away at the range, but sucking on the course.",
     "metatitle": "This award goes to the player with the highest round over three rounds of golf.",
     "winners": [
+      {
+        "year": "2020",
+        "name": "Mike Robey"
+      },
       {
         "year": "2020",
         "name": "Dan Halverson"

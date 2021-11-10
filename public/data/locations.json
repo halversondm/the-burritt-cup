@@ -1016,5 +1016,94 @@
         "alt": "Illinois 2020 20"
       }
     ]
+  },
+  {
+    "title": "2021",
+    "subtitle": [
+      "Deere Run Golf Course, Silvis, IL (Friday round)",
+      "Frye Lake Golf Club, Sherrard, IL (Saturday round)",
+      "Palmer Hills Golf Course, Bettendorf, IA (Sunday round)"
+    ],
+    "metatitle": "",
+    "summary": "",
+    "awards": [
+      "The Burritt Cup - Clint Delee, Mike Robey, Scott Barnica",
+      "Most Pars - Clint Delee",
+      "Most Bogies - Jacob Riebe",
+      "Low Round - Jacob Riebe",
+      "High Round - Mike Robey"
+    ],
+    "images": [
+      {
+        "location": "img/full/iowa_2021_1.jpeg",
+        "title": "Pre round chit chat at TPC Deere Run",
+        "alt": "Iowa 2021 1"
+      },
+      {
+        "location": "img/full/iowa_2021_2.jpeg",
+        "title": "The gang is all here!",
+        "alt": "Iowa 2021 2"
+      },
+      {
+        "location": "img/full/iowa_2021_3.jpeg",
+        "title": "TPC Deere run view.  Great course.  Really hard.",
+        "alt": "Iowa 2021 3"
+      },
+      {
+        "location": "img/full/iowa_2021_4.jpeg",
+        "title": "TPC Deere Run view",
+        "alt": "Iowa 2021 4"
+      },
+      {
+        "location": "img/full/iowa_2021_5.jpeg",
+        "title": "Owen in tourist mode.",
+        "alt": "Iowa 2021 5"
+      },
+      {
+        "location": "img/full/iowa_2021_6.jpeg",
+        "title": "Dan in tourist mode.",
+        "alt": "Iowa 2021 6"
+      },
+      {
+        "location": "img/full/iowa_2021_7.jpeg",
+        "title": "Deere ... run ...",
+        "alt": "Iowa 2021 7"
+      },
+      {
+        "location": "img/full/iowa_2021_8.jpeg",
+        "title": "Frye Lake view",
+        "alt": "Iowa 2021 8"
+      },
+      {
+        "location": "img/full/iowa_2021_9.jpeg",
+        "title": "I once missed an eagle by this much!",
+        "alt": "Iowa 2021 9"
+      },
+      {
+        "location": "img/full/iowa_2021_10.jpeg",
+        "title": "2021 Burritt Cup Winnahs!",
+        "alt": "Iowa 2021 10"
+      },
+      {
+        "location": "img/full/iowa_2021_11.jpeg",
+        "title": "Owen doing Owen thingz",
+        "alt": "Iowa 2021 11"
+      },
+      {
+        "location": "img/full/iowa_2021_12.jpeg",
+        "title": "Mike Robey and the High Round Trophy.  A cherished prize ...",
+        "alt": "Iowa 2021 12"
+      },
+      {
+        "location": "img/full/iowa_2021_13.jpeg",
+        "title": "Clint Delee and the Most Pars Trophy",
+        "alt": "Iowa 2021 13"
+      },
+      {
+        "location": "img/full/iowa_2021_14.jpeg",
+        "title": "Jake Riebe and the Most Bogeys Trophy",
+        "alt": "Iowa 2021 14"
+      }
+    ]
   }
 ]

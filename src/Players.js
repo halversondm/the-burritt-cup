@@ -1,10 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import Player from './Player';
 
-class Players extends Component {
+class Players extends React.Component {
 
     constructor(props) {
         super(props);
@@ -24,10 +24,10 @@ class Players extends Component {
         };
     }
 
-    componentWillMount() {
+    componentDidMount() {
         fetch('data/players.json')
             .then(response => response.json())
-            .then(json => this.setState({ players: json }));
+            .then(json => this.setState({players: json}));
     }
 
     render() {
