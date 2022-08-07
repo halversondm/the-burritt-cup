@@ -2,38 +2,16 @@ import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import PropTypes from 'prop-types';
-import Lightbox, {Modal, ModalGateway} from 'react-images';
+import {Carousel} from 'react-responsive-carousel';
 
 class Post extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {currentImage: 0};
-        this.closeLightbox = this.closeLightbox.bind(this);
-        this.openLightbox = this.openLightbox.bind(this);
-    }
-
-    closeLightbox() {
-        this.setState({
-            currentImage: 0,
-            lightboxIsOpen: false
-        });
-    }
-
-    openLightbox(event) {
-        event.preventDefault();
-        let currentImage = Number(event.currentTarget.dataset.i);
-        this.setState({
-            currentImage: currentImage,
-            lightboxIsOpen: true
-        });
     }
 
     render() {
-        const LIGHTBOX_IMAGES = this.props.images.map((image) => {
-            return {source: image.location, caption: image.title};
-        });
-        const {lightboxIsOpen} = this.state;
         return (
             <div>
                 <hr/>
@@ -59,20 +37,15 @@ class Post extends React.Component {
                                 : null
                             }
                             {this.props.images.length > 0 ? <p className="post-meta"><u>Photo Gallery</u></p> : null}
-                            {this.props.images.map((image, i) => {
-                                return (
-                                    <a href={image.location} title={image.title} key={i} data-i={i}
-                                       onClick={this.openLightbox}>
-                                        <img className="head" src={image.location} alt={image.alt}/>
-                                    </a>
-                                );
-                            })}
-                            <ModalGateway>
-                                {lightboxIsOpen ? <Modal onClose={this.closeLightbox}><Lightbox
-                                    currentIndex={this.state.currentImage}
-                                    views={LIGHTBOX_IMAGES}/></Modal> : null}
-                            </ModalGateway>
-
+                            <Carousel showArrows={true}>
+                                {this.props.images.map((image, i) => {
+                                    return (
+                                        <div key={i}>
+                                            <img src={image.location} alt={image.alt}/>
+                                            <p className="legend">{image.title}</p>
+                                        </div>);
+                                })}
+                            </Carousel>
                         </div>
                     </Col>
                 </Row>
