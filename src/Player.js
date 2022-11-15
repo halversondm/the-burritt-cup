@@ -2,32 +2,10 @@ import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import PropTypes from 'prop-types';
-import Lightbox, {Modal, ModalGateway} from 'react-images';
 
 class Player extends React.Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {lightboxIsOpen: false};
-        this.closeLightbox = this.closeLightbox.bind(this);
-        this.openLightbox = this.openLightbox.bind(this);
-    }
-
-    closeLightbox() {
-        this.setState({
-            lightboxIsOpen: false
-        });
-    }
-
-    openLightbox(event) {
-        event.preventDefault();
-        this.setState({
-            lightboxIsOpen: true
-        });
-    }
-
     render() {
-        const {lightboxIsOpen} = this.state;
         return (
             <div>
                 <hr/>
@@ -35,7 +13,7 @@ class Player extends React.Component {
                     <Col lg={8} md={10}>
                         <div className="post-preview">
                             <h2 className="post-title">
-                                <a href={this.props.image} onClick={this.openLightbox}>
+                                <a href={this.props.image}>
                                     <img className="head" src={this.props.thumbnail} alt={this.props.alt}/>
                                 </a> {this.props.name}
                             </h2>
@@ -45,13 +23,6 @@ class Player extends React.Component {
                             </h4>
                             <p className="post-meta">{this.props.about}</p>
                         </div>
-                        <ModalGateway>
-                            {lightboxIsOpen ?
-                                <Modal onClose={this.closeLightbox}>
-                                    <Lightbox views={[{source: this.props.image}]}/>
-                                </Modal>
-                                : null}
-                        </ModalGateway>
                     </Col>
                 </Row>
             </div>
