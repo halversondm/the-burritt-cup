@@ -7,6 +7,10 @@
     "metatitle": "This Cup is the goal of the weekend. The bragging rights for the next year go to the winners of the Cup. Teams are chosen at random and vary from year to year.",
     "winners": [
       {
+        "year": "2023",
+        "name": "Owen Burritt, Gene Filippo, Mike Robey, and Dan Halverson"
+      },
+      {
         "year": "2022",
         "name": "Jim Kopitke and Nat DeRose"
       },
@@ -51,6 +55,10 @@
     "subtitle": "To the player, who shoots like a Tour player.",
     "metatitle": "This award goes to the player who cards the lowest round out of three on the weekend.",
     "winners": [
+      {
+        "year": "2022",
+        "name": "Clint Delee"
+      },
       {
         "year": "2022",
         "name": "Kyle Burritt"
@@ -100,6 +108,10 @@
     "subtitle": "To the player, who's working towards the Tour Card.",
     "metatitle": "This award goes to the player with the most pars over three rounds of golf.",
     "winners": [
+      {
+        "year": "2023",
+        "name": "Owen Burritt"
+      },
       {
         "year": "2022",
         "name": "Kyle Burritt"
@@ -154,6 +166,10 @@
     "metatitle": "This award goes to the player with the most bogies over three rounds of golf.",
     "winners": [
       {
+        "year": "2023",
+        "name": "Clint Delee"
+      },
+      {
         "year": "2022",
         "name": "Owen Burritt"
       },
@@ -206,6 +222,10 @@
     "subtitle": "To the player who's hacking away at the range, but sucking on the course.",
     "metatitle": "This award goes to the player with the highest round over three rounds of golf.",
     "winners": [
+      {
+        "year": "2023",
+        "name": "Mike Robey"
+      },
       {
         "year": "2022",
         "name": "Mike Robey"

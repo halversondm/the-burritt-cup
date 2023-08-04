@@ -138,5 +138,15 @@
     "hometown": "Arlinton Heights, Illinois",
     "nickname": "TBD",
     "about": "Scott made his Cup debut in 2019."
+  },
+  {
+    "image": "img/full/gene_full.jpg",
+    "thumbnail": "./img/thumbnails/gene_head.jpg",
+    "alt": "Gene Filippo",
+    "name": "Gene Filippo",
+    "office": "",
+    "hometown": "Denver, Colorado",
+    "nickname": "#lungdart",
+    "about": "Gene made his Cup debut in 2023.  First time out and wins the Cup ... Owen's jealous."
   }
 ]
