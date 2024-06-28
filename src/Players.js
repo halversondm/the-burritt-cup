@@ -1,52 +1,47 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import Player from './Player';
 
-class Players extends React.Component {
+export default function Players() {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            players: [
-                {
-                    image: "",
-                    thumbnail: "",
-                    alt: "",
-                    name: "",
-                    office: "",
-                    hometown: "",
-                    nickname: "",
-                    about: ""
-                }
-            ]
-        };
-    }
+    const [state, setState] = useState({
+        players: [
+            {
+                image: "",
+                thumbnail: "",
+                alt: "",
+                name: "",
+                office: "",
+                hometown: "",
+                nickname: "",
+                about: ""
+            }
+        ]
+    });
 
-    componentDidMount() {
+    useEffect(() => {
         fetch('data/players.json')
             .then(response => response.json())
-            .then(json => this.setState({players: json}));
-    }
+            .then(json => setState({players: json}));
+    });
 
-    render() {
-        return (
-            <Container>
-                <Row className="justify-content-center">
-                    <Col lg={8} md={10}>
-                        <h1>Players</h1>
-                    </Col>
-                </Row>
-                {this.state.players.map((player, i) => {
-                    return (
-                        <Player key={i} image={player.image} thumbnail={player.thumbnail} alt={player.alt} name={player.name} office={player.office} hometown={player.hometown} nickname={player.nickname} about={player.about} />
-                    );
-                })}
-            </Container>
-        );
-    }
+    return (
+        <Container>
+            <Row className="justify-content-center">
+                <Col lg={8} md={10}>
+                    <h1>Players</h1>
+                </Col>
+            </Row>
+            {state.players.map((player, i) => {
+                return (
+                    <Player key={i} image={player.image} thumbnail={player.thumbnail} alt={player.alt}
+                            name={player.name} office={player.office} hometown={player.hometown}
+                            nickname={player.nickname} about={player.about}/>
+                );
+            })}
+        </Container>
+    );
 
 }
-
-export default Players;
