@@ -1,9 +1,8 @@
-import React from 'react';
 import {useState, useEffect} from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
-import Award from './Award';
+import Award from './Award.js';
 
 export default function Awards() {
 

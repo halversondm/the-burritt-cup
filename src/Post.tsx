@@ -1,9 +1,23 @@
-import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import {Carousel} from 'react-responsive-carousel';
 
-export default function Post({title, subtitle, metatitle, images, awards, summary}) {
+interface PostProps {
+    title: string,
+    subtitle: string,
+    metatitle: string,
+    images: Image[],
+    awards: [],
+    summary: string
+}
+
+interface Image {
+    location: string,
+    alt: string,
+    title: string
+}
+
+export default function Post({title, subtitle, metatitle, images, awards, summary}: PostProps) {
 
     return (
         <div>

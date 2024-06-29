@@ -1,17 +1,18 @@
-import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 
-export default function Player({
-                                   image,
-                                   thumbnail,
-                                   alt,
-                                   name,
-                                   office,
-                                   hometown,
-                                   nickname,
-                                   about
-                               }) {
+interface PlayerProps {
+    image: string,
+    thumbnail: string,
+    alt: string,
+    name: string,
+    office: string,
+    hometown: string,
+    nickname: string,
+    about: string
+}
+
+export default function Player({image, thumbnail, alt, name, office, hometown, nickname, about}: PlayerProps) {
 
     return (
         <div>

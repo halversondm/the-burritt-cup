@@ -15,21 +15,42 @@
     "typeface-open-sans": "1.1.13"
   },
   "devDependencies": {
+    "@testing-library/react": "^16.0.0",
+    "@types/jest": "^29.5.12",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "@vitejs/plugin-react": "^4.3.1",
+    "@vitest/coverage-v8": "^1.6.0",
     "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
+    "happy-dom": "^14.12.3",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.7",
+    "msw": "^2.3.1",
+    "prettier": "^3.3.2",
     "typescript": "^5.2.2",
-    "vite": "^5.3.1"
+    "vite": "^5.3.1",
+    "vitest": "^1.6.0"
   },
   "scripts": {
     "dev": "vite --host --port 3000",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest --coverage",
+    "prettier": "prettier . --write",
+    "prebuild": "npm run test:run",
     "build": "tsc -b && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "tsc": "tsc -w",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.tsx": "eslint --fix ./src/",
+    "*.{js,css,md}": "prettier --write"
   }
 }

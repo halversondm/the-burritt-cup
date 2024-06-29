@@ -1,28 +1,52 @@
-import React, {useState, useEffect} from 'react';
+import {useState, useEffect} from 'react';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
 import Post from './Post';
 
+interface LocationsState {
+    locations: Location[]
+}
+
+interface Location {
+    title: string,
+    subtitle: string,
+    metatitle: string,
+    awards: [],
+    summary: string
+    images: Image[]
+}
+
+interface Image {
+    location: string
+    title: string
+    alt: string
+}
+
 export default function Locations() {
 
-    const [state, setState] = useState({
-        locations: [
-            {
-                title: "",
-                subtitle: "",
-                metatitle: "",
-                awards: [],
-                images: [
-                    {
-                        location: "",
-                        title: "",
-                        alt: ""
-                    }
-                ]
-            }
-        ]
-    });
+    const [state, setState] = useState(initialState);
+
+    function initialState(): LocationsState {
+        return {
+            locations: [
+                {
+                    title: "",
+                    subtitle: "",
+                    metatitle: "",
+                    awards: [],
+                    summary: "",
+                    images: [
+                        {
+                            location: "",
+                            title: "",
+                            alt: ""
+                        }
+                    ]
+                }
+            ]
+        }
+    }
 
     useEffect(() => {
         fetch('data/locations.json')

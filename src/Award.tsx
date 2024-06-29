@@ -1,6 +1,20 @@
-import React from 'react';
 import Row from "react-bootstrap/Row";
 import Col from 'react-bootstrap/Col';
+import {ReactNode} from "react";
+
+interface AwardProps {
+    image: string,
+    alt: string,
+    title: string,
+    subtitle: string,
+    metatitle: string,
+    winners: Winner[]
+}
+
+export interface Winner {
+    year: string,
+    name: string
+}
 
 export default function Award({
                                   image,
@@ -9,7 +23,7 @@ export default function Award({
                                   subtitle,
                                   metatitle,
                                   winners,
-                              }) {
+                              }: AwardProps): ReactNode {
 
     return (
         <div>

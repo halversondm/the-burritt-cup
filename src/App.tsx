@@ -1,4 +1,3 @@
-import React from 'react';
 import {useState, useEffect} from 'react';
 import {Link, Route, Routes} from 'react-router-dom';
 import Navbar from "react-bootstrap/Navbar";
@@ -22,8 +21,8 @@ export default function App() {
         return () => window.removeEventListener('scroll', scrollingNavBar);
     })
 
-    function scrollingNavBar(event) {
-        let currentTop = window.scrollY;
+    function scrollingNavBar() {
+        const currentTop = window.scrollY;
         if (currentTop === 0) {
             // at the top
             setState({navbarClass: "navbar-custom", previousTop: currentTop});
@@ -66,7 +65,7 @@ export default function App() {
             </Navbar>
             <header className="intro-header burritt-cup-logo"/>
             <Routes>
-                <Route path="/" exact element={<Main/>}/>
+                <Route path="/" element={<Main/>}/>
                 <Route path="/locations" element={<Locations/>}/>
                 <Route path="/players" element={<Players/>}/>
                 <Route path="/awards" element={<Awards/>}/>
