@@ -37,7 +37,7 @@
     "vitest": "^1.6.0"
   },
   "scripts": {
-    "dev": "vite --host --port 3000",
+    "dev": "NODE_ENV=production vite --host --port 3000 --mode development",
     "test": "vitest",
     "test:run": "vitest run",
     "test:coverage": "vitest --coverage",
