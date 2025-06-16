@@ -34,6 +34,6 @@ jobs:
         with:
           bucket: ${{ secrets.AWS_BUCKET }}
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
-          folder: 'build'
+          folder: 'dist'
           dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
           delete-removed: true
