@@ -2,8 +2,8 @@ name: Test and Build
 
 on:
   push:
-    branches:
-      - '!master'
+    branches-ignore:
+      - master
 
   workflow_dispatch:
 
