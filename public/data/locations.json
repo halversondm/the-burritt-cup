@@ -1,443 +1,773 @@
 [
   {
-    "title": "2006",
-    "subtitle": "Swan Lake Resort - Plymouth, Indiana",
-    "metatitle": "The Inaugural Burritt Cup Weekend",
-    "images": [
-      {
-        "location": "./img/full/Swan_Lake_2006_1.JPG",
-        "title": "(L to R) Owen Burritt, Brian Zimmerman, Dan Coulter and Kyle Burritt",
-        "alt": "Swan Lake 2006"
-      }
-    ]
-  },
-  {
-    "title": "2007",
-    "subtitle": "Coachman's Golf Resort - Edgerton, Wisconsin",
-    "metatitle": "A classy joint."
-  },
-  {
-    "title": "2008",
-    "subtitle": "Eagle Ridge Golf Resort - Galena, Illinois",
-    "metatitle": "A really hard course",
-    "images": [
-      {
-        "location": "img/full/Galena_2008_1.JPG",
-        "title": "The General",
-        "alt": "Galena 1"
-      },
-      {
-        "location": "img/full/Galena_2008_2.JPG",
-        "title": "(L to R) Brian Zimmerman and Clint Delee",
-        "alt": "Galena 2"
-      },
-      {
-        "location": "img/full/Galena_2008_3.jpg",
-        "title": "(L to R) Mike Seegers, Nat DeRose, Owen Burritt, Kyle Burritt, Clint Delee, Brian Zimmerman and Jacob Riebe",
-        "alt": "Galena 3"
-      },
-      {
-        "location": "img/full/Galena_2008_4.jpg",
-        "title": "There's always some tomfoolery at a Burrit Cup event!",
-        "alt": "Galena 4"
-      }
-    ]
-  },
-  {
-    "title": "2009",
-    "subtitle": "Fox Hills Resort - Mishicot, Wisconsin",
-    "metatitle": "",
-    "images": [
-      {
-        "location": "img/full/fox_hills_2009_2.jpg",
-        "title": "(L to R) Brian Zimmerman, Dave Kakareka, Owen Burritt, Kyle Burritt, Jacob Riebe, Clint Delee, Nat DeRose",
-        "alt": "Fox Hills 2"
-      }
-    ]
-  },
-  {
-    "title": "2010",
-    "subtitle": "Gull Lake Resort - Augusta, Michigan",
-    "metatitle": ""
-  },
-  {
-    "title": "2011",
-    "subtitle": "Devil's Head - Merrimac, Wisconsin",
-    "metatitle": ""
-  },
-  {
-    "title": "2012",
-    "subtitle": "Devil's Head - Merrimac, Wisconsin",
-    "metatitle": "",
-    "awards": [
-      "Most Pars - Kyle Burritt",
-      "Most Bogeys - Clint Delee"
-    ]
-  },
-  {
-    "title": "2013",
-    "subtitle": "Swan Lake Resort - Plymouth, Indiana",
-    "metatitle": "",
-    "summary": "",
-    "awards": [
-      "Low Round - Kevin Eck",
-      "Most Pars - Kevin Eck",
-      "Most Bogeys - Owen Burritt"
+    "title": "2024",
+    "subtitle": [
+      "El Paso Golf Club, El Paso, IL(Friday round)",
+      "The Den, Bloomington, IL (Saturday round)",
+      "Weibring Golf Club, Normal, IL (Sunday round)"
     ],
-    "images": [
-      {
-        "location": "img/full/swan_lake_2013.jpg",
-        "title": "(L to R) Owen Burritt, Jacob Riebe, Nat DeRose, Brian Zimmerman, Clint Delee, Dave Kakareka, Kyle Burritt, Kevin Eck",
-        "alt": "Swan Lake 2013"
-      }
-    ]
-  },
-  {
-    "title": "2014",
-    "subtitle": "Birck Boilermaker Golf Complex at Purdue University - West Lafayette, Indiana",
     "metatitle": "",
-    "summary": "The players, as I recall, generally enjoyed the courses at Purdue University. The Kampen is a Pete Dye designed links style course with plenty of danger areas to avoid. Ackerman Hills is an old wooded American style course with lots of hills. One hole even has a bell at the bottom of a hill to let the tee box know that current group on the fairway has cleared. The players stayed at a Courtyard, dined at Hooters and enjoyed many adult beverages.",
+    "summary": "A first time stop in Bloomington-Normal, IL. The group stayed at The Chateau hotel this year which isn't our preferred method, but it worked out well. The courses were all in good shape. Friday dinner at Jim's Steak House was a fantastic, old school place with big cuts of meat and tasty sides. Saturday dinner at Epiphany Farms was wonderful as well. It was prix fixe with SEVEN courses. I thought we were going home hungry, but no way.",
     "awards": [
-      "The Burritt Cup - Clint Delee, Nat DeRose, Jason Lane, Kyle Burritt",
-      "Low Round - Clint Delee",
+      "The Burritt Cup - Justin Niekamp, Jacob Riebe, Dave Kakareka, Scott Barnica and Dan Halverson",
       "Most Pars - Clint Delee",
-      "Most Bogeys - Owen Burritt",
-      "Most Hazards - Nat DeRose",
+      "Most Bogies - Jacob Riebe",
+      "Low Round - Owen Burritt",
       "High Round - Dan Halverson"
     ],
     "images": [
       {
-        "location": "img/full/purdue_2014_1.jpg",
-        "title": "(L to R) Dan Halverson, Nat DeRose, Jacob Riebe, Clint Delee, Jason Lane, Owen Burritt, Kyle Burritt, Dave Kakareka",
-        "alt": "Purdue 1"
+        "location": "img/full/bloom_2024_1.jpeg",
+        "title": "Clin-ton is ready to go!",
+        "alt": "Bloomington 2024 1"
       },
       {
-        "location": "img/full/purdue_2014_2.jpg",
-        "title": "(L to R)  Nat DeRose, Clint Delee, Kyle Burritt, Jason Lane",
-        "alt": "Purdue 2"
+        "location": "img/full/bloom_2024_2.jpeg",
+        "title": "Dan is getting ready to slice!",
+        "alt": "Bloomington 2024 2"
       },
       {
-        "location": "img/full/purdue_2014_3.jpg",
-        "title": "Clint Delee",
-        "alt": "Purdue 3"
+        "location": "img/full/bloom_2024_3.jpeg",
+        "title": "While Scott ponders his existence here, Owen, Kyle and Riebe are bringing that swagger.",
+        "alt": "Bloomington 2024 3"
       },
       {
-        "location": "img/full/purdue_2014_4.jpg",
-        "title": "Kyle Burritt",
-        "alt": "Purdue 4"
+        "location": "img/full/bloom_2024_4.jpeg",
+        "title": "2024 Burritt Cup Winnahs! (L to R) Dan Halverson, Justin Niekamp, Jacob Riebe, Dave Kakareka, and Scott Barnica",
+        "alt": "Bloomington 2024 4"
       },
       {
-        "location": "img/full/purdue_2014_5.jpg",
-        "title": "Jason Lane",
-        "alt": "Purdue 5"
+        "location": "img/full/bloom_2024_5.jpeg",
+        "title": "Saturday night dinner at Epiphany Farms. Seven courses of deliciousness.",
+        "alt": "Bloomington 2024 5"
       },
       {
-        "location": "img/full/purdue_2014_6.jpg",
-        "title": "Nat DeRose",
-        "alt": "Purdue 6"
-      }
-    ]
-  },
-  {
-    "title": "2015",
-    "subtitle": "Coachman's Golf Resort - Edgerton, Wisconsin",
-    "metatitle": "",
-    "summary": "Coachman's is a unique resort in that the golf is good, but the accommodations are right from the '70s. Coachman's offers an on site bar and restaurant for dining. The golf package included drink tickets and two dinner meals. The golfers never left the property as there isn't much around Coachman's to get to! Kyle Burritt did make an early Saturday morning run to Dunkin Donuts for the group though. Thanks, Kyle!",
-    "awards": [
-      "The Burritt Cup - Kevin Eck, Jacob Riebe, Nat DeRose, Jason Lane",
-      "Low Round - Kevin Eck",
-      "Most Pars - Kevin Eck",
-      "Most Bogeys - Owen Burritt",
-      "Most Hazards - Nat DeRose",
-      "High Round - Dan Halverson"
-    ],
-    "images": [
-      {
-        "location": "img/full/coachmans_2015_1.jpg",
-        "title": "(L to R) Nat DeRose, Kyle Burritt, Owen Burritt, Jasob Riebe, Dan Halverson, Dave Kakareka, Jason Lane, Kevin Eck",
-        "alt": "Coachmans 2015 1"
-      }
-    ]
-  },
-  {
-    "title": "2016",
-    "subtitle": "Geneva National Resort - Lake Geneva, Wisconsin",
-    "metatitle": "",
-    "summary": "The players really enjoyed the golf at this location. Accommodations were at the swanky Ridge Hotel. All three courses at Geneva National offer many golf challenges. We dined at Sprecher's and the hotel restaurant. On Friday, the group went out to enjoy Lake Geneva bars. During Sunday's golf, a minor incident almost occurred. Dan Halverson had almost tipped a cart over in a sand trap. He saved it with masterful skill and a strong left leg.",
-    "awards": [
-      "The Burritt Cup - Clint Delee, Nat DeRose, Jason Lane",
-      "Low Round - Kevin Eck",
-      "Most Pars - Kevin Eck",
-      "Most Bogeys - Clint Delee",
-      "Most Hazards - Nat DeRose",
-      "High Round - Dan Halverson"
-    ],
-    "images": [
-      {
-        "location": "img/full/geneva_2016_1.jpg",
-        "title": "A look out over the practice area from the clubhouse.",
-        "alt": "Geneva 1"
+        "location": "img/full/bloom_2024_6.jpeg",
+        "title": "Most Pars winner Clint Delee",
+        "alt": "Bloomington 2024 6"
       },
       {
-        "location": "img/full/geneva_2016_2.jpg",
-        "title": "(L to R) Clint Delee, Jacob Riebe, Jason Lane, Kyle Burritt, Owen Burritt, Nat DeRose  Enjoying a beer before the first round.",
-        "alt": "Geneva 2"
-      },
-      {
-        "location": "img/full/geneva_2016_3.jpg",
-        "title": "Gotta make some putts!",
-        "alt": "Geneva 3"
-      },
-      {
-        "location": "img/full/geneva_2016_4.jpg",
-        "title": "(L to R) Kevin Eck, Dave Kakareka, Nat DeRose, Dan Halverson, Clint Delee, Jacob Riebe, Owen Burritt, Jason Lane, Kyle Burritt",
-        "alt": "Geneva 4"
-      },
-      {
-        "location": "img/full/geneva_2016_5.jpg",
-        "title": "Shockers and flappy birds, I guess...",
-        "alt": "Geneva 5"
-      },
-      {
-        "location": "img/full/geneva_2016_6.jpg",
-        "title": "Clint is pondering the deeper questions in life.",
-        "alt": "Geneva 6"
-      },
-      {
-        "location": "img/full/geneva_2016_7.jpg",
-        "title": "OMG!  It's a camera too!",
-        "alt": "Geneva 7"
-      },
-      {
-        "location": "img/full/geneva_2016_8.jpg",
-        "title": "Jason Lane",
-        "alt": "Geneva 8"
-      },
-      {
-        "location": "img/full/geneva_2016_9.jpg",
-        "title": "Kyle Burritt",
-        "alt": "Geneva 9"
-      },
-      {
-        "location": "img/full/geneva_2016_10.jpg",
-        "title": "Owen Burritt",
-        "alt": "Geneva 10"
-      },
-      {
-        "location": "img/full/geneva_2016_11.jpg",
-        "title": "Clint Delee",
-        "alt": "Geneva 11"
-      },
-      {
-        "location": "img/full/geneva_2016_12.jpg",
-        "title": "Jacob Riebe",
-        "alt": "Geneva 12"
-      },
-      {
-        "location": "img/full/geneva_2016_13.jpg",
-        "title": "Kevin Eck",
-        "alt": "Geneva 13"
-      },
-      {
-        "location": "img/full/geneva_2016_14.jpg",
-        "title": "Nat DeRose",
-        "alt": "Geneva 14"
-      },
-      {
-        "location": "img/full/geneva_2016_15.jpg",
-        "title": "Dave Kakareka",
-        "alt": "Geneva 15"
-      },
-      {
-        "location": "img/full/geneva_2016_16.jpg",
-        "title": "2016 Burritt Cup Winners! (L to R) Jason Lane, Nat DeRose, Clint Delee",
-        "alt": "Geneva 16"
-      },
-      {
-        "location": "img/full/geneva_2016_17.jpg",
-        "title": "Rules Committee hard at work tallying up the final individual results.",
-        "alt": "Geneva 17"
-      },
-      {
-        "location": "img/full/geneva_2016_18.jpg",
-        "title": "Lunch on Sunday and awards.",
-        "alt": "Geneva 18"
-      },
-      {
-        "location": "img/full/geneva_2016_19.jpg",
-        "title": "Nat is super happy with his most hazards award.",
-        "alt": "Geneva 19"
-      },
-      {
-        "location": "img/full/geneva_2016_20.jpg",
-        "title": "Lane's got some Cup Cash!",
-        "alt": "Geneva 20"
-      },
-      {
-        "location": "img/full/geneva_2016_21.jpg",
-        "title": "Concentration ... (L to R) Twitter, Lunch, Scorecard",
-        "alt": "Geneva 21"
-      },
-      {
-        "location": "img/full/geneva_2016_22.jpg",
-        "title": "",
-        "alt": "Geneva 22"
-      },
-      {
-        "location": "img/full/geneva_2016_23.jpg",
-        "title": "Winner winner, chicken dinner (of what, I'm not sure)",
-        "alt": "Geneva 23"
-      },
-      {
-        "location": "img/full/geneva_2016_24.jpg",
-        "title": "Toast to the victors!",
-        "alt": "Geneva 24"
-      },
-      {
-        "location": "img/full/geneva_2016_25.jpg",
-        "title": "Kevin Eck, Most Pars and Lowest Round 2016 Winner",
-        "alt": "Geneva 25"
-      },
-      {
-        "location": "img/full/geneva_2016_26.jpg",
-        "title": "Clint Delee, Most Bogies 2016 Winner",
-        "alt": "Geneva 26"
-      },
-      {
-        "location": "img/full/geneva_2016_27.jpg",
-        "title": "2016 Cup Winners, (L to R) Jason Lane, Nat DeRose, Clint Delee",
-        "alt": "Geneva 27"
-      },
-      {
-        "location": "img/full/geneva_2016_28.jpg",
-        "title": "I think they wanted a skate around the ice type of moment or something.",
-        "alt": "Geneva 28"
-      },
-      {
-        "location": "img/full/geneva_2016_29.jpg",
-        "title": "Last shot of the players and awards.  Until next year...",
-        "alt": "Geneva 29"
-      }
-    ]
-  },
-  {
-    "title": "2017",
-    "subtitle": "Swan Lake Resort - Plymouth, Indiana",
-    "metatitle": "",
-    "summary": "As usual, another challenging golf course for this group. The quest for the cup was played in a 4 - 3 format this year. A lot of balls were lost and a lot of fun was had. The group stayed at the Fairway House which was, by far, the best accomodations yet. On Friday, we dined at the famous Dickie's Bar and Grill. On Saturday, we brought enough food to feed Arnie's Army and ate at the House. Lunch was at the sub-par Clubhouse Bar and Grill. We also introduced a new player to the mix, Sean Smith.",
-    "awards": [
-      "The Burritt Cup - Kyle Burritt, Jacob Riebe, Dan Halverson",
-      "Low Round - Kyle Burritt",
-      "Most Pars - Owen Burritt",
-      "Most Bogeys - Jacob Riebe",
-      "Most Hazards - Sean Smith",
-      "High Round - Dan Halverson"
-    ],
-    "images": [
-      {
-        "location": "img/full/swan_lake_2017_1.jpg",
-        "title": "Nat contemplating the finer things in life.",
-        "alt": "Swan Lake 2017 1"
-      },
-      {
-        "location": "img/full/swan_lake_2017_2.jpg",
-        "title": "Owen... 'Where'd that ball go?''",
-        "alt": "Swan Lake 2017 2"
-      },
-      {
-        "location": "img/full/swan_lake_2017_3.jpg",
-        "title": "Getting ready to start losing some golf balls.",
-        "alt": "Swan Lake 2017 3"
-      },
-      {
-        "location": "img/full/swan_lake_2017_4.jpg",
-        "title": "The Fariway House from the driveway.",
-        "alt": "Swan Lake 2017 4"
-      },
-      {
-        "location": "img/full/swan_lake_2017_5.jpg",
-        "title": "Kyle is measuring his shot",
-        "alt": "Swan Lake 2017 5"
-      },
-      {
-        "location": "img/full/swan_lake_2017_6.jpg",
-        "title": "Good form on Dave.",
-        "alt": "Swan Lake 2017 6"
-      },
-      {
-        "location": "img/full/swan_lake_2017_7.jpg",
-        "title": "Now that's a fire...",
-        "alt": "Swan Lake 2017 7"
-      },
-      {
-        "location": "img/full/swan_lake_2017_8.jpg",
-        "title": "Professional polish by Dave before Day 2",
-        "alt": "Swan Lake 2017 8"
-      },
-      {
-        "location": "img/full/swan_lake_2017_9.jpg",
-        "title": "Before the morning round on Day 2",
-        "alt": "Swan Lake 2017 9"
-      },
-      {
-        "location": "img/full/swan_lake_2017_10.jpg",
-        "title": "Nat's going through his tee box routine",
-        "alt": "Swan Lake 2017 10"
-      },
-      {
-        "location": "img/full/swan_lake_2017_11.jpg",
-        "title": "Nice finish OB!",
-        "alt": "Swan Lake 2017 11"
-      },
-      {
-        "location": "img/full/swan_lake_2017_12.jpg",
-        "title": "Nat looks like he's squeezing some golf between safaris",
-        "alt": "Swan Lake 2017 12"
-      },
-      {
-        "location": "img/full/swan_lake_2017_13.jpg",
-        "title": "Dan and the Cup",
-        "alt": "Swan Lake 2017 13"
-      },
-      {
-        "location": "img/full/swan_lake_2017_14.jpg",
-        "title": "Jake and the Cup",
-        "alt": "Swan Lake 2017 14"
-      },
-      {
-        "location": "img/full/swan_lake_2017_15.jpg",
-        "title": "Burrit Cup winning hardware.  It's rarely all in the same spot at the same time.",
-        "alt": "Swan Lake 2017 15"
-      },
-      {
-        "location": "img/full/swan_lake_2017_18.jpg",
-        "title": "2017 Crew shot",
-        "alt": "Swan Lake 2017 18"
-      },
-      {
-        "location": "img/full/swan_lake_2017_21.jpg",
-        "title": "Low Round winner Kyle Burritt",
-        "alt": "Swan Lake 2017 21"
-      },
-      {
-        "location": "img/full/swan_lake_2017_22.jpg",
-        "title": "Most Pars winner Owen Burritt",
-        "alt": "Swan Lake 2017 22"
-      },
-      {
-        "location": "img/full/swan_lake_2017_23.jpg",
-        "title": "High Round winner Dan Halverson",
-        "alt": "Swan Lake 2017 23"
-      },
-      {
-        "location": "img/full/swan_lake_2017_24.jpg",
+        "location": "img/full/bloom_2024_7.jpeg",
         "title": "Most Bogies winner Jacob Riebe",
-        "alt": "Swan Lake 2017 24"
+        "alt": "Bloomington 2024 7"
       },
       {
-        "location": "img/full/swan_lake_2017_25.jpg",
-        "title": "We are the Champions!  Jacob Riebe, Dan Halverson and Kyle Burritt",
-        "alt": "Swan Lake 2017 25"
+        "location": "img/full/bloom_2024_8.jpeg",
+        "title": "Low Round winner Owen Burritt",
+        "alt": "Bloomington 2024 8"
+      },
+      {
+        "location": "img/full/bloom_2024_9.jpeg",
+        "title": "High Round winner Dan Halverson",
+        "alt": "Bloomington 2024 9"
+      },
+      {
+        "location": "img/full/bloom_2024_10.jpeg",
+        "title": "Crazy Dave Kakareka with the Burritt Cup",
+        "alt": "Bloomington 2024 10"
+      },
+      {
+        "location": "img/full/bloom_2024_11.jpeg",
+        "title": "Peace Dave, and a happy crew of weekend hackers!",
+        "alt": "Bloomington 2024 11"
+      },
+      {
+        "location": "img/full/bloom_2024_12.jpeg",
+        "title": "Nat is ready to eat that steak!",
+        "alt": "Bloomington 2024 12"
+      },
+      {
+        "location": "img/full/bloom_2024_13.jpeg",
+        "title": "Fwends forever! Jinx!",
+        "alt": "Bloomington 2024 13"
+      },
+      {
+        "location": "img/full/bloom_2024_14.jpeg",
+        "title": "The Cup in front of the hotel fountain.",
+        "alt": "Bloomington 2024 14"
+      }
+    ]
+  },
+  {
+    "title": "2023",
+    "subtitle": [
+      "Brickyard Crossing, Indianapolis, IN (Friday round)",
+      "The Fort Golf Course, Indianapolis, IN (Saturday round)",
+      "Harrison Hills Golf Club, Attica, IN (Sunday round)"
+    ],
+    "metatitle": "",
+    "summary": "Everything about this trip was excellent EXCEPT the accommodations location. We won't ever forget where we stayed and what we saw while staying there! Golf at Brickyard Crossing was great. It was the most expensive that we've paid for in these trips, but worth the experience. The other courses were challenging with hills and woods. St. Elmo's steak house had us drooling!",
+    "awards": [
+      "The Burritt Cup - Owen Burritt, Gene Filippo, Mike Robey, and Dan Halverson",
+      "Most Pars - Owen Burritt",
+      "Most Bogies - Clint Delee",
+      "Low Round - Clint Delee",
+      "High Round - Mike Robey"
+    ],
+    "images": [
+      {
+        "location": "img/full/indy_2023_1.jpeg",
+        "title": "Shooting Stick and the Shit! Indy house was nice inside; questionable outside.",
+        "alt": "Indy 2023 1"
+      },
+      {
+        "location": "img/full/indy_2023_2.jpeg",
+        "title": "More catching up!",
+        "alt": "Indy 2023 2"
+      },
+      {
+        "location": "img/full/indy_2023_3.jpeg",
+        "title": "(L to R) Dan, Dave, Owen, Clint and newcomer Gene. Gene will be back. We didn't scare him away!",
+        "alt": "Indy 2023 3"
+      },
+      {
+        "location": "img/full/indy_2023_4.jpeg",
+        "title": "Group photo at Brickyard Crossing. The course has four holes inside the Indy Speedway track. The had some road racing going on this day.",
+        "alt": "Indy 2023 4"
+      },
+      {
+        "location": "img/full/indy_2023_5.jpeg",
+        "title": "Coolest looking golf cart I've ever seen.",
+        "alt": "Indy 2023 5"
+      },
+      {
+        "location": "img/full/indy_2023_6.jpeg",
+        "title": "Owen posing with the Brickyard flag",
+        "alt": "Indy 2023 6"
+      },
+      {
+        "location": "img/full/indy_2023_7.jpeg",
+        "title": "Clint posing with the Brickyard flag",
+        "alt": "Indy 2023 7"
+      },
+      {
+        "location": "img/full/indy_2023_8.jpeg",
+        "title": "Yetty posing with the Brickyard flag",
+        "alt": "Indy 2023 8"
+      },
+      {
+        "location": "img/full/indy_2023_9.jpeg",
+        "title": "2023 Burritt Cup winnahs! Gene Filippo, Mike Robey, Owen Burritt, Dan Halverson",
+        "alt": "Indy 2023 9"
+      },
+      {
+        "location": "img/full/indy_2023_10.jpeg",
+        "title": "2023 Low Round winner Clint Delee",
+        "alt": "Indy 2023 10"
+      },
+      {
+        "location": "img/full/indy_2023_11.jpeg",
+        "title": "2023 Most Bogies winner Clint Delee",
+        "alt": "Indy 2023 11"
+      },
+      {
+        "location": "img/full/indy_2023_12.jpeg",
+        "title": "2023 Most Pars winner Owen Burritt",
+        "alt": "Indy 2023 12"
+      },
+      {
+        "location": "img/full/indy_2023_13.jpeg",
+        "title": "2023 High Round winner Mike Robey. He looks extremely excited.",
+        "alt": "Indy 2023 13"
+      },
+      {
+        "location": "img/full/indy_2023_14.jpeg",
+        "title": "Dinner at St. Elmo's Steak House in downtown Indy. We had our own room and the shrimp cocktail was an experience!",
+        "alt": "Indy 2023 14"
+      },
+      {
+        "location": "img/full/indy_2023_15.jpeg",
+        "title": "We got the special treatment with our dinner menus at St. Elmo's!",
+        "alt": "Indy 2023 15"
+      },
+      {
+        "location": "img/full/indy_2023_16.jpeg",
+        "title": "Golf at the Brickyard!",
+        "alt": "Indy 2023 16"
+      },
+      {
+        "location": "img/full/indy_2023_17.jpeg",
+        "title": "Brickyard Crossing sign",
+        "alt": "Indy 2023 17"
+      },
+      {
+        "location": "img/full/indy_2023_18.jpeg",
+        "title": "Gene and Owen",
+        "alt": "Indy 2023 18"
+      },
+      {
+        "location": "img/full/indy_2023_19.jpeg",
+        "title": "Top 'O the morning to ya!",
+        "alt": "Indy 2023 19"
+      },
+      {
+        "location": "img/full/indy_2023_20.jpeg",
+        "title": "Pre round (and pre breakfast) smiles",
+        "alt": "Indy 2023 20"
+      },
+      {
+        "location": "img/full/indy_2023_21.jpeg",
+        "title": "OK, USA!",
+        "alt": "Indy 2023 21"
+      },
+      {
+        "location": "img/full/indy_2023_22.jpeg",
+        "title": "St. Elmo's dinner courses from foodie Owen",
+        "alt": "Indy 2023 22"
+      }
+    ]
+  },
+  {
+    "title": "2022",
+    "subtitle": [
+      "Woodbine Bend Golf Course, Stockton, IL (Friday round)",
+      "Eagle Ridge Golf Course, South, Galena, IL (Saturday round)",
+      "Eagle Ridge Golf Course, South or General, Galena, IL (Sunday round)"
+    ],
+    "metatitle": "",
+    "summary": "After a 14 year break, the group decided to try this one again. The group really enjoyed Woodbine Bend. Many compliments about the course maintenance were made. However, I wouldn't say the same for the Eagle Ridge courses. The sentiment there was that the courses should have been in better shape and offered more amenities like cart GPS for the cost of the round. There were less complaints about the golf being hard. I imagine that's a function of experience with age! Accommodations at the Ashton House were fantastic for the group as there was plenty of not creepy space to have fun in. For food and spirits, the Friday dinner at a local Irish pub was perfect, a distillery on Saturday before dinner and then dinner at an Italian restaurant in downtown Galena. Excellent choices and everyone was satisfied afterword. While we may not come back here again, it was, as always, a good time for the group.",
+    "awards": [
+      "The Burritt Cup - Jim Kopitke and Nat DeRose",
+      "Most Pars - Kyle Burritt",
+      "Most Bogies - Owen Burritt",
+      "Low Round - Kyle Burritt",
+      "High Round - Mike Robey"
+    ],
+    "images": [
+      {
+        "location": "img/full/galena_2022_1119.jpeg",
+        "title": "Getting warmed up before the first round",
+        "alt": "Galena 2022 1"
+      },
+      {
+        "location": "img/full/galena_2022_1125.jpeg",
+        "title": "This year's group. We get better and better looking as the years go.",
+        "alt": "Galena 2022 2"
+      },
+      {
+        "location": "img/full/galena_2022_1128.jpeg",
+        "title": "Owen's thinking, can I hit that car?",
+        "alt": "Galena 2022 3"
+      },
+      {
+        "location": "img/full/galena_2022_1137.jpeg",
+        "title": "Fraternity bro selfie. Someone tell Halverson to trim that beard.",
+        "alt": "Galena 2022 4"
+      },
+      {
+        "location": "img/full/galena_2022_1144.jpeg",
+        "title": "Great views. Clean course.",
+        "alt": "Galena 2022 5"
+      },
+      {
+        "location": "img/full/galena_2022_1147.jpeg",
+        "title": "Slackers. Pre round picture to shake off the nerves.",
+        "alt": "Galena 2022 6"
+      },
+      {
+        "location": "img/full/galena_2022_1151.jpeg",
+        "title": "Pre round Burritt Cup winnahs here on the left, Jim and Nat.",
+        "alt": "Galena 2022 7"
+      },
+      {
+        "location": "img/full/galena_2022_1156.jpeg",
+        "title": "Could Dave K be any happier?",
+        "alt": "Galena 2022 8"
+      },
+      {
+        "location": "img/full/galena_2022_1159.jpeg",
+        "title": "Great views of day 2 course.",
+        "alt": "Galena 2022 9"
+      },
+      {
+        "location": "img/full/galena_2022_1165.jpeg",
+        "title": "Dinner at downtown Galena",
+        "alt": "Galena 2022 10"
+      },
+      {
+        "location": "img/full/galena_2022_1168.jpeg",
+        "title": "Post round Burritt Cup winners! Nat and Jim",
+        "alt": "Galena 2022 11"
+      },
+      {
+        "location": "img/full/galena_2022_1172.jpeg",
+        "title": "Jacob holding up the flag at U.S. Grant's Galena ... Eagle Ridge",
+        "alt": "Galena 2022 12"
+      },
+      {
+        "location": "img/full/galena_2022_1175.jpeg",
+        "title": "Yes, the hole is down there.",
+        "alt": "Galena 2022 13"
+      },
+      {
+        "location": "img/full/galena_2022_1180.jpeg",
+        "title": "Halverson was that close to a hole in one. He blew the birdie putt too!",
+        "alt": "Galena 2022 14"
+      },
+      {
+        "location": "img/full/galena_2022_1183.jpeg",
+        "title": "Clint with that picture perfect straight lead arm. Ready for the LIV Tour!",
+        "alt": "Galena 2022 15"
+      }
+    ]
+  },
+  {
+    "title": "2021",
+    "subtitle": [
+      "Deere Run Golf Course, Silvis, IL (Friday round)",
+      "Fyre Lake Golf Club, Sherrard, IL (Saturday round)",
+      "Palmer Hills Golf Course, Bettendorf, IA (Sunday round)"
+    ],
+    "metatitle": "",
+    "summary": "We made it to TPC John Deere! After a pause on this trip due to COVID, the group made it out to western IL and Bettendorf IA. We stayed in a creepy old house with lots of charm, room and promise! Dinner on Friday was at a local tavern/bar in Bettendorf. Dinner on Saturday was at a supper club style place where we experienced The Velvet Hammer drink. Food was very good and reasonably priced. As far as the courses, TPC John Deere had everyone jazzed. No one forgot their Tour card that day! Frye Lake had a really interesting island green, but the course was coming back from years of mismanagement. Palmer Hills reminded me of Bartlett Hills, a nice simple course that's part of the town.",
+    "awards": [
+      "The Burritt Cup - Clint Delee, Mike Robey, Scott Barnica",
+      "Most Pars - Clint Delee",
+      "Most Bogies - Jacob Riebe",
+      "Low Round - Jacob Riebe",
+      "High Round - Mike Robey"
+    ],
+    "images": [
+      {
+        "location": "img/full/iowa_2021_1.jpeg",
+        "title": "Pre round chit chat at TPC Deere Run",
+        "alt": "Iowa 2021 1"
+      },
+      {
+        "location": "img/full/iowa_2021_2.jpeg",
+        "title": "The gang is all here!",
+        "alt": "Iowa 2021 2"
+      },
+      {
+        "location": "img/full/iowa_2021_3.jpeg",
+        "title": "TPC Deere run view. Great course. Really hard.",
+        "alt": "Iowa 2021 3"
+      },
+      {
+        "location": "img/full/iowa_2021_4.jpeg",
+        "title": "TPC Deere Run view",
+        "alt": "Iowa 2021 4"
+      },
+      {
+        "location": "img/full/iowa_2021_5.jpeg",
+        "title": "Owen in tourist mode.",
+        "alt": "Iowa 2021 5"
+      },
+      {
+        "location": "img/full/iowa_2021_6.jpeg",
+        "title": "Dan in tourist mode.",
+        "alt": "Iowa 2021 6"
+      },
+      {
+        "location": "img/full/iowa_2021_7.jpeg",
+        "title": "Deere ... run ...",
+        "alt": "Iowa 2021 7"
+      },
+      {
+        "location": "img/full/iowa_2021_8.jpeg",
+        "title": "Frye Lake view",
+        "alt": "Iowa 2021 8"
+      },
+      {
+        "location": "img/full/iowa_2021_9.jpeg",
+        "title": "I once missed an eagle by this much!",
+        "alt": "Iowa 2021 9"
+      },
+      {
+        "location": "img/full/iowa_2021_10.jpeg",
+        "title": "2021 Burritt Cup Winnahs!",
+        "alt": "Iowa 2021 10"
+      },
+      {
+        "location": "img/full/iowa_2021_11.jpeg",
+        "title": "Owen doing Owen thingz",
+        "alt": "Iowa 2021 11"
+      },
+      {
+        "location": "img/full/iowa_2021_12.jpeg",
+        "title": "Mike Robey and the High Round Trophy. A cherished prize ...",
+        "alt": "Iowa 2021 12"
+      },
+      {
+        "location": "img/full/iowa_2021_13.jpeg",
+        "title": "Clint Delee and the Most Pars Trophy",
+        "alt": "Iowa 2021 13"
+      },
+      {
+        "location": "img/full/iowa_2021_14.jpeg",
+        "title": "Jake Riebe and the Most Bogeys Trophy",
+        "alt": "Iowa 2021 14"
+      }
+    ]
+  },
+  {
+    "title": "2020",
+    "subtitle": [
+      "Prairie Landing Golf Club, West Chicago, IL (Friday round)",
+      "Cantigny Golf Course, Winfield, IL (Saturday round)"
+    ],
+    "metatitle": "",
+    "summary": "This year had serious promise as a premier event. Planning started early in the year with a consensus on having a Burritt Cup in the Quad Cities and playing TPC John Deere! Coronavirus killed that! Rather the alternate plans took us to local courses and a shorter format. Unfortunately, several cuppers in the recent years were unable to attend this year. The key highlight of the weekend though was the emergence of Owen Burritt as a winner of his namesake award, finally. The post celebration made up for the lack of a weekend destination for sure.",
+    "awards": [
+      "The Burritt Cup - Owen Burritt, Dan Halverson, Jacob Riebe, Scott Barnica",
+      "Longest Drive - Jim Kopitke",
+      "High Round - Dan Halverson"
+    ],
+    "images": [
+      {
+        "location": "img/full/corona_2020_1.jpg",
+        "title": "Scott Barnica with the follow through.",
+        "alt": "Illinois 2020 1"
+      },
+      {
+        "location": "img/full/corona_2020_2.jpg",
+        "title": "Good form by Halverson. Ask him where the ball really went.",
+        "alt": "Illinois 2020 2"
+      },
+      {
+        "location": "img/full/corona_2020_3.jpg",
+        "title": "Good form by Riebe.",
+        "alt": "Illinois 2020 3"
+      },
+      {
+        "location": "img/full/corona_2020_4.jpg",
+        "title": "Placard in the carts at Cantigny",
+        "alt": "Illinois 2020 4"
+      },
+      {
+        "location": "img/full/corona_2020_5.jpg",
+        "title": "Pre round discussion on the firmness of the greens.",
+        "alt": "Illinois 2020 5"
+      },
+      {
+        "location": "img/full/corona_2020_6.jpg",
+        "title": "This years crew. By the way, Owen was the last person to figure out where to stand. He didn't want to be between giants!",
+        "alt": "Illinois 2020 6"
+      },
+      {
+        "location": "img/full/corona_2020_7.jpg",
+        "title": "Butterfly flower arrangement at Cantigny",
+        "alt": "Illinois 2020 7"
+      },
+      {
+        "location": "img/full/corona_2020_8.jpg",
+        "title": "Owen is lining up his shot. Deep in concentration.",
+        "alt": "Illinois 2020 8"
+      },
+      {
+        "location": "img/full/corona_2020_9.jpg",
+        "title": "Water hole at Cantigny. Tee box to green, that's it. Otherwise ker-plunk!",
+        "alt": "Illinois 2020 9"
+      },
+      {
+        "location": "img/full/corona_2020_10.jpg",
+        "title": "Owen begins the celebration of winning the Burritt Cup.",
+        "alt": "Illinois 2020 10"
+      },
+      {
+        "location": "img/full/corona_2020_11.jpg",
+        "title": "2020 Winners of the Burritt Cup!",
+        "alt": "Illinois 2020 11"
+      },
+      {
+        "location": "img/full/corona_2020_12.jpg",
+        "title": "2020 Winners of the Burritt Cup!",
+        "alt": "Illinois 2020 12"
+      },
+      {
+        "location": "img/full/corona_2020_13.jpg",
+        "title": "Halverson with the broken club, high round trophy and *prize*",
+        "alt": "Illinois 2020 13"
+      },
+      {
+        "location": "img/full/corona_2020_14.jpg",
+        "title": "Halverson with the prize for closest to the pin. Par 3. Missed the Birdie putt by an inch.",
+        "alt": "Illinois 2020 1"
+      },
+      {
+        "location": "img/full/corona_2020_15.jpg",
+        "title": "Long drive champ Jim Kopitke with his prize",
+        "alt": "Illinois 2020 15"
+      },
+      {
+        "location": "img/full/corona_2020_16.jpg",
+        "title": "Weekend memorabilia",
+        "alt": "Illinois 2020 16"
+      },
+      {
+        "location": "img/full/corona_2020_17.jpg",
+        "title": "Owen with the cup all tucked into the car for the ride home.",
+        "alt": "Illinois 2020 17"
+      },
+      {
+        "location": "img/full/corona_2020_18.jpg",
+        "title": "Studying pin locaitons at Prairie Landing with Sean Smith and Jim Kopitke",
+        "alt": "Illinois 2020 18"
+      },
+      {
+        "location": "img/full/corona_2020_19.jpg",
+        "title": "A hole a Prairie Landing. A course in very good shape right next to a busy regional airport.",
+        "alt": "Illinois 2020 19"
+      },
+      {
+        "location": "img/full/corona_2020_20.jpg",
+        "title": "More course studing by Clint Delee, Sean Smith and Jim Kopitke",
+        "alt": "Illinois 2020 20"
+      }
+    ]
+  },
+  {
+    "title": "2019",
+    "subtitle": [
+      "Meadowbrook Golf Club, Mt. Pleasant, WI (Friday round)",
+      "Dretzka Park Golf Course, Milwaukee, WI (Saturday round)",
+      "Brown Deer Park Golf Course, Glendale, WI (Sunday round)",
+      "Lodging in an AirBnB house, Milwaukee, WI"
+    ],
+    "metatitle": "",
+    "summary": "Another super interesting Burritt Cup year! The accomodations at the two-flat in Milwaukee were spot on for this group. Nat cooked up a whole taco dinner for us on Saturday night. What a great meal that was! We went to the fabulous Jackson Grill Supper Club on Friday night. Highly recommend, but don't take the kids! Golf was provided by Wisconsin Golf Trips. Jason of Wisconsin Golf Trips did an excellent job of putting together our package of courses.",
+    "awards": [
+      "The Burritt Cup - Kyle Burritt, Sean Smith, Jim Kopitke and Justin Niekamp",
+      "Low Round - Kevin Eck",
+      "Most Pars - Jacob Riebe",
+      "Most Bogeys - Tie: Kyle Burritt and Kevin Eck",
+      "High Round - Dan Halverson"
+    ],
+    "images": [
+      {
+        "location": "img/full/mil_racine_1.jpg",
+        "title": "The church across the street from our two-flat. It was a really cool neighborhood to stay in.",
+        "alt": "Milwaukee Racine 2019 1"
+      },
+      {
+        "location": "img/full/mil_racine_2.jpg",
+        "title": "Rules Committee tallying results for Day 1.",
+        "alt": "Milwaukee Racine 2019 2"
+      },
+      {
+        "location": "img/full/mil_racine_3.jpg",
+        "title": "Too kool for skool kids!",
+        "alt": "Milwaukee Racine 2019 3"
+      },
+      {
+        "location": "img/full/mil_racine_4.jpg",
+        "title": "The Cup on High.",
+        "alt": "Milwaukee Racine 2019 4"
+      },
+      {
+        "location": "img/full/mil_racine_5.jpg",
+        "title": "Gettin' a slice of pie at a pizza joint in our two-flat's neighborhood.",
+        "alt": "Milwaukee Racine 2019 5"
+      },
+      {
+        "location": "img/full/mil_racine_6.jpg",
+        "title": "Gotta make some putts.",
+        "alt": "Milwaukee Racine 2019 6"
+      },
+      {
+        "location": "img/full/mil_racine_7.jpg",
+        "title": "Patiently waiting for slow players up ahead.",
+        "alt": "Milwaukee Racine 2019 7"
+      },
+      {
+        "location": "img/full/mil_racine_8.jpg",
+        "title": "Good form by Pants.",
+        "alt": "Milwaukee Racine 2019 8"
+      },
+      {
+        "location": "img/full/mil_racine_9.jpg",
+        "title": "Nice finish by Riebe.",
+        "alt": "Milwaukee Racine 2019 9"
+      },
+      {
+        "location": "img/full/mil_racine_10.jpg",
+        "title": "Scott with a good display of the proper backswing",
+        "alt": "Milwaukee Racine 2019 10"
+      },
+      {
+        "location": "img/full/mil_racine_11.jpg",
+        "title": "Shots, shots, shots! None other than DaKak cheesin' up front.",
+        "alt": "Milwaukee Racine 2019 11"
+      },
+      {
+        "location": "img/full/mil_racine_12.jpg",
+        "title": "Owen's holding court and spinning tales of yester-years triumphs and tribulations. Something about 'November Rain' I believe.",
+        "alt": "Milwaukee Racine 2019 12"
+      },
+      {
+        "location": "img/full/mil_racine_13.jpg",
+        "title": "Hellllooooooooooooo down there!",
+        "alt": "Milwaukee Racine 2019 13"
+      },
+      {
+        "location": "img/full/mil_racine_14.jpg",
+        "title": "Bowling on a golf trip?!? You bet.",
+        "alt": "Milwaukee Racine 2019 14"
+      },
+      {
+        "location": "img/full/mil_racine_15.jpg",
+        "title": "FIRST BIRDIE CELEBRATION FOR SHOTGUN!!!!",
+        "alt": "Milwaukee Racine 2019 15"
+      },
+      {
+        "location": "img/full/mil_racine_16.jpg",
+        "title": "Ribs are messy. Riebe needs a bib.",
+        "alt": "Milwaukee Racine 2019 16"
+      },
+      {
+        "location": "img/full/mil_racine_17.jpg",
+        "title": "Pre-round BS session on Friday.",
+        "alt": "Milwaukee Racine 2019 17"
+      },
+      {
+        "location": "img/full/mil_racine_18.jpg",
+        "title": "Scott going through the pre-shot routine.",
+        "alt": "Milwaukee Racine 2019 18"
+      },
+      {
+        "location": "img/full/mil_racine_19.jpg",
+        "title": "Dinner at Jackson Grill on Friday. Nevermind Owen.",
+        "alt": "Milwaukee Racine 2019 19"
+      },
+      {
+        "location": "img/full/mil_racine_20.jpg",
+        "title": "An excellent meal about to be devoured by the crew.",
+        "alt": "Milwaukee Racine 2019 20"
+      },
+      {
+        "location": "img/full/mil_racine_21.jpg",
+        "title": "Hey, Owen, you want some dessert?",
+        "alt": "Milwaukee Racine 2019 21"
+      },
+      {
+        "location": "img/full/mil_racine_22.jpg",
+        "title": "Yes, please. Mmmm, good.",
+        "alt": "Milwaukee Racine 2019 22"
+      },
+      {
+        "location": "img/full/mil_racine_23.jpg",
+        "title": "Loungin' after Jackson Grill.",
+        "alt": "Milwaukee Racine 2019 23"
+      },
+      {
+        "location": "img/full/mil_racine_24.jpg",
+        "title": "Nat with some intensity on his phone.",
+        "alt": "Milwaukee Racine 2019 24"
+      },
+      {
+        "location": "img/full/mil_racine_25.jpg",
+        "title": "Post-round BS session. Gotta have it on both ends for sure.",
+        "alt": "Milwaukee Racine 2019 25"
+      },
+      {
+        "location": "img/full/mil_racine_26.jpg",
+        "title": "Nat prepping to cook Saturday Taco Dinner!",
+        "alt": "Milwaukee Racine 2019 26"
+      },
+      {
+        "location": "img/full/mil_racine_27.jpg",
+        "title": "Malort. Gak!",
+        "alt": "Milwaukee Racine 2019 27"
+      },
+      {
+        "location": "img/full/mil_racine_28.jpg",
+        "title": "This year's crew at Dretzka on the first tee.",
+        "alt": "Milwaukee Racine 2019 28"
+      },
+      {
+        "location": "img/full/mil_racine_29.jpg",
+        "title": "Owen going for the big money putt.",
+        "alt": "Milwaukee Racine 2019 29"
+      },
+      {
+        "location": "img/full/mil_racine_30.jpg",
+        "title": "As wide as this hole is, I'll still put it in the trees on the right. - said every Cupper",
+        "alt": "Milwaukee Racine 2019 30"
+      },
+      {
+        "location": "img/full/mil_racine_31.jpg",
+        "title": "More big money putts!",
+        "alt": "Milwaukee Racine 2019 31"
+      },
+      {
+        "location": "img/full/mil_racine_32.jpg",
+        "title": "Owen with his purple unicorn spotters.",
+        "alt": "Milwaukee Racine 2019 32"
+      },
+      {
+        "location": "img/full/mil_racine_33.jpg",
+        "title": "More taco dinner prep. Almost ready to eat!",
+        "alt": "Milwaukee Racine 2019 33"
+      },
+      {
+        "location": "img/full/mil_racine_34.jpg",
+        "title": "Mmm, good stuff. Thanks again Nat!",
+        "alt": "Milwaukee Racine 2019 34"
+      },
+      {
+        "location": "img/full/mil_racine_35.jpg",
+        "title": "The chef at work.",
+        "alt": "Milwaukee Racine 2019 35"
+      },
+      {
+        "location": "img/full/mil_racine_36.jpg",
+        "title": "This year's Burritt Cup winners!",
+        "alt": "Milwaukee Racine 2019 36"
+      },
+      {
+        "location": "img/full/mil_racine_37.jpg",
+        "title": "Living the High Life post round at Brown Deer.",
+        "alt": "Milwaukee Racine 2019 37"
+      },
+      {
+        "location": "img/full/mil_racine_38.jpg",
+        "title": "Brown Deer. Pink shirt guy.",
+        "alt": "Milwaukee Racine 2019 38"
+      },
+      {
+        "location": "img/full/mil_racine_40.jpg",
+        "title": "Pink shirt guy and homies...",
+        "alt": "Milwaukee Racine 2019 40"
+      },
+      {
+        "location": "img/full/mil_racine_41.jpg",
+        "title": "Brown Deer. Another wide hole, another wide right!",
+        "alt": "Milwaukee Racine 2019 41"
+      },
+      {
+        "location": "img/full/mil_racine_42.jpg",
+        "title": "Sean in the takeaway.",
+        "alt": "Milwaukee Racine 2019 42"
+      },
+      {
+        "location": "img/full/mil_racine_43.jpg",
+        "title": "Lunch at Brown Deer.",
+        "alt": "Milwaukee Racine 2019 43"
+      },
+      {
+        "location": "img/full/mil_racine_44.jpg",
+        "title": "Shotgun won this dumb trophy again. But. HAD HIS FIRST BIRDIE!",
+        "alt": "Milwaukee Racine 2019 44"
+      },
+      {
+        "location": "img/full/mil_racine_45.jpg",
+        "title": "Pants perennial pose with the Low Round trophy.",
+        "alt": "Milwaukee Racine 2019 45"
+      },
+      {
+        "location": "img/full/mil_racine_46.jpg",
+        "title": "Jake with the Most bogeys plaque.",
+        "alt": "Milwaukee Racine 2019 46"
+      },
+      {
+        "location": "img/full/mil_racine_47.jpg",
+        "title": "Kyle and Pants with the Most Pars plaque.",
+        "alt": "Milwaukee Racine 2019 47"
+      },
+      {
+        "location": "img/full/mil_racine_48.jpg",
+        "title": "Dan with the High Round Trophy. Again. FIRST BIRDIE!",
+        "alt": "Milwaukee Racine 2019 48"
       }
     ]
   },
@@ -566,7 +896,7 @@
       },
       {
         "location": "img/full/lake_lawn_2018_22.jpg",
-        "title": "A Como Crossing par 3 hole.  Great view!",
+        "title": "A Como Crossing par 3 hole. Great view!",
         "alt": "Lake Lawn 2018 22"
       },
       {
@@ -647,761 +977,448 @@
     ]
   },
   {
-    "title": "2019",
+    "title": "2017",
     "subtitle": [
-      "Meadowbrook Golf Club, Mt. Pleasant, WI (Friday round)",
-      "Dretzka Park Golf Course, Milwaukee, WI (Saturday round)",
-      "Brown Deer Park Golf Course, Glendale, WI (Sunday round)",
-      "Lodging in an AirBnB house, Milwaukee, WI"
+      "Swan Lake Resort - Plymouth, Indiana"
     ],
     "metatitle": "",
-    "summary": "Another super interesting Burritt Cup year!  The accomodations at the two-flat in Milwaukee were spot on for this group.  Nat cooked up a whole taco dinner for us on Saturday night.  What a great meal that was!  We went to the fabulous Jackson Grill Supper Club on Friday night.  Highly recommend, but don't take the kids! Golf was provided by Wisconsin Golf Trips.  Jason of Wisconsin Golf Trips did an excellent job of putting together our package of courses.",
+    "summary": "As usual, another challenging golf course for this group. The quest for the cup was played in a 4 - 3 format this year. A lot of balls were lost and a lot of fun was had. The group stayed at the Fairway House which was, by far, the best accomodations yet. On Friday, we dined at the famous Dickie's Bar and Grill. On Saturday, we brought enough food to feed Arnie's Army and ate at the House. Lunch was at the sub-par Clubhouse Bar and Grill. We also introduced a new player to the mix, Sean Smith.",
     "awards": [
-      "The Burritt Cup - Kyle Burritt, Sean Smith, Jim Kopitke and Justin Niekamp",
-      "Low Round - Kevin Eck",
-      "Most Pars - Jacob Riebe",
-      "Most Bogeys - Tie: Kyle Burritt and Kevin Eck",
-      "High Round - Dan Halverson"
-    ],
-    "images": [
-      {
-        "location": "img/full/mil_racine_1.jpg",
-        "title": "The church across the street from our two-flat.  It was a really cool neighborhood to stay in.",
-        "alt": "Milwaukee Racine 2019 1"
-      },
-      {
-        "location": "img/full/mil_racine_2.jpg",
-        "title": "Rules Committee tallying results for Day 1.",
-        "alt": "Milwaukee Racine 2019 2"
-      },
-      {
-        "location": "img/full/mil_racine_3.jpg",
-        "title": "Too kool for skool kids!",
-        "alt": "Milwaukee Racine 2019 3"
-      },
-      {
-        "location": "img/full/mil_racine_4.jpg",
-        "title": "The Cup on High.",
-        "alt": "Milwaukee Racine 2019 4"
-      },
-      {
-        "location": "img/full/mil_racine_5.jpg",
-        "title": "Gettin' a slice of pie at a pizza joint in our two-flat's neighborhood.",
-        "alt": "Milwaukee Racine 2019 5"
-      },
-      {
-        "location": "img/full/mil_racine_6.jpg",
-        "title": "Gotta make some putts.",
-        "alt": "Milwaukee Racine 2019 6"
-      },
-      {
-        "location": "img/full/mil_racine_7.jpg",
-        "title": "Patiently waiting for slow players up ahead.",
-        "alt": "Milwaukee Racine 2019 7"
-      },
-      {
-        "location": "img/full/mil_racine_8.jpg",
-        "title": "Good form by Pants.",
-        "alt": "Milwaukee Racine 2019 8"
-      },
-      {
-        "location": "img/full/mil_racine_9.jpg",
-        "title": "Nice finish by Riebe.",
-        "alt": "Milwaukee Racine 2019 9"
-      },
-      {
-        "location": "img/full/mil_racine_10.jpg",
-        "title": "Scott with a good display of the proper backswing",
-        "alt": "Milwaukee Racine 2019 10"
-      },
-      {
-        "location": "img/full/mil_racine_11.jpg",
-        "title": "Shots, shots, shots! None other than DaKak cheesin' up front.",
-        "alt": "Milwaukee Racine 2019 11"
-      },
-      {
-        "location": "img/full/mil_racine_12.jpg",
-        "title": "Owen's holding court and spinning tales of yester-years triumphs and tribulations. Something about 'November Rain' I believe.",
-        "alt": "Milwaukee Racine 2019 12"
-      },
-      {
-        "location": "img/full/mil_racine_13.jpg",
-        "title": "Hellllooooooooooooo down there!",
-        "alt": "Milwaukee Racine 2019 13"
-      },
-      {
-        "location": "img/full/mil_racine_14.jpg",
-        "title": "Bowling on a golf trip?!?  You bet.",
-        "alt": "Milwaukee Racine 2019 14"
-      },
-      {
-        "location": "img/full/mil_racine_15.jpg",
-        "title": "FIRST BIRDIE CELEBRATION FOR SHOTGUN!!!!",
-        "alt": "Milwaukee Racine 2019 15"
-      },
-      {
-        "location": "img/full/mil_racine_16.jpg",
-        "title": "Ribs are messy.  Riebe needs a bib.",
-        "alt": "Milwaukee Racine 2019 16"
-      },
-      {
-        "location": "img/full/mil_racine_17.jpg",
-        "title": "Pre-round BS session on Friday.",
-        "alt": "Milwaukee Racine 2019 17"
-      },
-      {
-        "location": "img/full/mil_racine_18.jpg",
-        "title": "Scott going through the pre-shot routine.",
-        "alt": "Milwaukee Racine 2019 18"
-      },
-      {
-        "location": "img/full/mil_racine_19.jpg",
-        "title": "Dinner at Jackson Grill on Friday.  Nevermind Owen.",
-        "alt": "Milwaukee Racine 2019 19"
-      },
-      {
-        "location": "img/full/mil_racine_20.jpg",
-        "title": "An excellent meal about to be devoured by the crew.",
-        "alt": "Milwaukee Racine 2019 20"
-      },
-      {
-        "location": "img/full/mil_racine_21.jpg",
-        "title": "Hey, Owen, you want some dessert?",
-        "alt": "Milwaukee Racine 2019 21"
-      },
-      {
-        "location": "img/full/mil_racine_22.jpg",
-        "title": "Yes, please.  Mmmm, good.",
-        "alt": "Milwaukee Racine 2019 22"
-      },
-      {
-        "location": "img/full/mil_racine_23.jpg",
-        "title": "Loungin' after Jackson Grill.",
-        "alt": "Milwaukee Racine 2019 23"
-      },
-      {
-        "location": "img/full/mil_racine_24.jpg",
-        "title": "Nat with some intensity on his phone.",
-        "alt": "Milwaukee Racine 2019 24"
-      },
-      {
-        "location": "img/full/mil_racine_25.jpg",
-        "title": "Post-round BS session.  Gotta have it on both ends for sure.",
-        "alt": "Milwaukee Racine 2019 25"
-      },
-      {
-        "location": "img/full/mil_racine_26.jpg",
-        "title": "Nat prepping to cook Saturday Taco Dinner!",
-        "alt": "Milwaukee Racine 2019 26"
-      },
-      {
-        "location": "img/full/mil_racine_27.jpg",
-        "title": "Malort.  Gak!",
-        "alt": "Milwaukee Racine 2019 27"
-      },
-      {
-        "location": "img/full/mil_racine_28.jpg",
-        "title": "This year's crew at Dretzka on the first tee.",
-        "alt": "Milwaukee Racine 2019 28"
-      },
-      {
-        "location": "img/full/mil_racine_29.jpg",
-        "title": "Owen going for the big money putt.",
-        "alt": "Milwaukee Racine 2019 29"
-      },
-      {
-        "location": "img/full/mil_racine_30.jpg",
-        "title": "As wide as this hole is, I'll still put it in the trees on the right. - said every Cupper",
-        "alt": "Milwaukee Racine 2019 30"
-      },
-      {
-        "location": "img/full/mil_racine_31.jpg",
-        "title": "More big money putts!",
-        "alt": "Milwaukee Racine 2019 31"
-      },
-      {
-        "location": "img/full/mil_racine_32.jpg",
-        "title": "Owen with his purple unicorn spotters.",
-        "alt": "Milwaukee Racine 2019 32"
-      },
-      {
-        "location": "img/full/mil_racine_33.jpg",
-        "title": "More taco dinner prep. Almost ready to eat!",
-        "alt": "Milwaukee Racine 2019 33"
-      },
-      {
-        "location": "img/full/mil_racine_34.jpg",
-        "title": "Mmm, good stuff.  Thanks again Nat!",
-        "alt": "Milwaukee Racine 2019 34"
-      },
-      {
-        "location": "img/full/mil_racine_35.jpg",
-        "title": "The chef at work.",
-        "alt": "Milwaukee Racine 2019 35"
-      },
-      {
-        "location": "img/full/mil_racine_36.jpg",
-        "title": "This year's Burritt Cup winners!",
-        "alt": "Milwaukee Racine 2019 36"
-      },
-      {
-        "location": "img/full/mil_racine_37.jpg",
-        "title": "Living the High Life post round at Brown Deer.",
-        "alt": "Milwaukee Racine 2019 37"
-      },
-      {
-        "location": "img/full/mil_racine_38.jpg",
-        "title": "Brown Deer.  Pink shirt guy.",
-        "alt": "Milwaukee Racine 2019 38"
-      },
-      {
-        "location": "img/full/mil_racine_40.jpg",
-        "title": "Pink shirt guy and homies...",
-        "alt": "Milwaukee Racine 2019 40"
-      },
-      {
-        "location": "img/full/mil_racine_41.jpg",
-        "title": "Brown Deer.  Another wide hole, another wide right!",
-        "alt": "Milwaukee Racine 2019 41"
-      },
-      {
-        "location": "img/full/mil_racine_42.jpg",
-        "title": "Sean in the takeaway.",
-        "alt": "Milwaukee Racine 2019 42"
-      },
-      {
-        "location": "img/full/mil_racine_43.jpg",
-        "title": "Lunch at Brown Deer.",
-        "alt": "Milwaukee Racine 2019 43"
-      },
-      {
-        "location": "img/full/mil_racine_44.jpg",
-        "title": "Shotgun won this dumb trophy again. But.  HAD HIS FIRST BIRDIE!",
-        "alt": "Milwaukee Racine 2019 44"
-      },
-      {
-        "location": "img/full/mil_racine_45.jpg",
-        "title": "Pants perennial pose with the Low Round trophy.",
-        "alt": "Milwaukee Racine 2019 45"
-      },
-      {
-        "location": "img/full/mil_racine_46.jpg",
-        "title": "Jake with the Most bogeys plaque.",
-        "alt": "Milwaukee Racine 2019 46"
-      },
-      {
-        "location": "img/full/mil_racine_47.jpg",
-        "title": "Kyle and Pants with the Most Pars plaque.",
-        "alt": "Milwaukee Racine 2019 47"
-      },
-      {
-        "location": "img/full/mil_racine_48.jpg",
-        "title": "Dan with the High Round Trophy.  Again.  FIRST BIRDIE!",
-        "alt": "Milwaukee Racine 2019 48"
-      }
-    ]
-  },
-  {
-    "title": "2020",
-    "subtitle": [
-      "Prairie Landing Golf Club, West Chicago, IL (Friday round)",
-      "Cantigny Golf Course, Winfield, IL (Saturday round)"
-    ],
-    "metatitle": "",
-    "summary": "This year had serious promise as a premier event.  Planning started early in the year with a consensus on having a Burritt Cup in the Quad Cities and playing TPC John Deere!  Coronavirus killed that!  Rather the alternate plans took us to local courses and a shorter format.  Unfortunately, several cuppers in the recent years were unable to attend this year.  The key highlight of the weekend though was the emergence of Owen Burritt as a winner of his namesake award, finally.  The post celebration made up for the lack of a weekend destination for sure.",
-    "awards": [
-      "The Burritt Cup - Owen Burritt, Dan Halverson, Jacob Riebe, Scott Barnica",
-      "Longest Drive - Jim Kopitke",
-      "High Round - Dan Halverson"
-    ],
-    "images": [
-      {
-        "location": "img/full/corona_2020_1.jpg",
-        "title": "Scott Barnica with the follow through.",
-        "alt": "Illinois 2020 1"
-      },
-      {
-        "location": "img/full/corona_2020_2.jpg",
-        "title": "Good form by Halverson. Ask him where the ball really went.",
-        "alt": "Illinois 2020 2"
-      },
-      {
-        "location": "img/full/corona_2020_3.jpg",
-        "title": "Good form by Riebe.",
-        "alt": "Illinois 2020 3"
-      },
-      {
-        "location": "img/full/corona_2020_4.jpg",
-        "title": "Placard in the carts at Cantigny",
-        "alt": "Illinois 2020 4"
-      },
-      {
-        "location": "img/full/corona_2020_5.jpg",
-        "title": "Pre round discussion on the firmness of the greens.",
-        "alt": "Illinois 2020 5"
-      },
-      {
-        "location": "img/full/corona_2020_6.jpg",
-        "title": "This years crew. By the way, Owen was the last person to figure out where to stand.  He didn't want to be between giants!",
-        "alt": "Illinois 2020 6"
-      },
-      {
-        "location": "img/full/corona_2020_7.jpg",
-        "title": "Butterfly flower arrangement at Cantigny",
-        "alt": "Illinois 2020 7"
-      },
-      {
-        "location": "img/full/corona_2020_8.jpg",
-        "title": "Owen is lining up his shot.  Deep in concentration.",
-        "alt": "Illinois 2020 8"
-      },
-      {
-        "location": "img/full/corona_2020_9.jpg",
-        "title": "Water hole at Cantigny.  Tee box to green, that's it.  Otherwise ker-plunk!",
-        "alt": "Illinois 2020 9"
-      },
-      {
-        "location": "img/full/corona_2020_10.jpg",
-        "title": "Owen begins the celebration of winning the Burritt Cup.",
-        "alt": "Illinois 2020 10"
-      },
-      {
-        "location": "img/full/corona_2020_11.jpg",
-        "title": "2020 Winners of the Burritt Cup!",
-        "alt": "Illinois 2020 11"
-      },
-      {
-        "location": "img/full/corona_2020_12.jpg",
-        "title": "2020 Winners of the Burritt Cup!",
-        "alt": "Illinois 2020 12"
-      },
-      {
-        "location": "img/full/corona_2020_13.jpg",
-        "title": "Halverson with the broken club, high round trophy and *prize*",
-        "alt": "Illinois 2020 13"
-      },
-      {
-        "location": "img/full/corona_2020_14.jpg",
-        "title": "Halverson with the prize for closest to the pin. Par 3. Missed the Birdie putt by an inch.",
-        "alt": "Illinois 2020 1"
-      },
-      {
-        "location": "img/full/corona_2020_15.jpg",
-        "title": "Long drive champ Jim Kopitke with his prize",
-        "alt": "Illinois 2020 15"
-      },
-      {
-        "location": "img/full/corona_2020_16.jpg",
-        "title": "Weekend memorabilia",
-        "alt": "Illinois 2020 16"
-      },
-      {
-        "location": "img/full/corona_2020_17.jpg",
-        "title": "Owen with the cup all tucked into the car for the ride home.",
-        "alt": "Illinois 2020 17"
-      },
-      {
-        "location": "img/full/corona_2020_18.jpg",
-        "title": "Studying pin locaitons at Prairie Landing with Sean Smith and Jim Kopitke",
-        "alt": "Illinois 2020 18"
-      },
-      {
-        "location": "img/full/corona_2020_19.jpg",
-        "title": "A hole a Prairie Landing. A course in very good shape right next to a busy regional airport.",
-        "alt": "Illinois 2020 19"
-      },
-      {
-        "location": "img/full/corona_2020_20.jpg",
-        "title": "More course studing by Clint Delee, Sean Smith and Jim Kopitke",
-        "alt": "Illinois 2020 20"
-      }
-    ]
-  },
-  {
-    "title": "2021",
-    "subtitle": [
-      "Deere Run Golf Course, Silvis, IL (Friday round)",
-      "Fyre Lake Golf Club, Sherrard, IL (Saturday round)",
-      "Palmer Hills Golf Course, Bettendorf, IA (Sunday round)"
-    ],
-    "metatitle": "",
-    "summary": "We made it to TPC John Deere!  After a pause on this trip due to COVID, the group made it out to western IL and Bettendorf IA.  We stayed in a creepy old house with lots of charm, room and promise!  Dinner on Friday was at a local tavern/bar in Bettendorf.  Dinner on Saturday was at a supper club style place where we experienced The Velvet Hammer drink.  Food was very good and reasonably priced.  As far as the courses, TPC John Deere had everyone jazzed.  No one forgot their Tour card that day!  Frye Lake had a really interesting island green, but the course was coming back from years of mismanagement.  Palmer Hills reminded me of Bartlett Hills, a nice simple course that's part of the town.",
-    "awards": [
-      "The Burritt Cup - Clint Delee, Mike Robey, Scott Barnica",
-      "Most Pars - Clint Delee",
-      "Most Bogies - Jacob Riebe",
-      "Low Round - Jacob Riebe",
-      "High Round - Mike Robey"
-    ],
-    "images": [
-      {
-        "location": "img/full/iowa_2021_1.jpeg",
-        "title": "Pre round chit chat at TPC Deere Run",
-        "alt": "Iowa 2021 1"
-      },
-      {
-        "location": "img/full/iowa_2021_2.jpeg",
-        "title": "The gang is all here!",
-        "alt": "Iowa 2021 2"
-      },
-      {
-        "location": "img/full/iowa_2021_3.jpeg",
-        "title": "TPC Deere run view.  Great course.  Really hard.",
-        "alt": "Iowa 2021 3"
-      },
-      {
-        "location": "img/full/iowa_2021_4.jpeg",
-        "title": "TPC Deere Run view",
-        "alt": "Iowa 2021 4"
-      },
-      {
-        "location": "img/full/iowa_2021_5.jpeg",
-        "title": "Owen in tourist mode.",
-        "alt": "Iowa 2021 5"
-      },
-      {
-        "location": "img/full/iowa_2021_6.jpeg",
-        "title": "Dan in tourist mode.",
-        "alt": "Iowa 2021 6"
-      },
-      {
-        "location": "img/full/iowa_2021_7.jpeg",
-        "title": "Deere ... run ...",
-        "alt": "Iowa 2021 7"
-      },
-      {
-        "location": "img/full/iowa_2021_8.jpeg",
-        "title": "Frye Lake view",
-        "alt": "Iowa 2021 8"
-      },
-      {
-        "location": "img/full/iowa_2021_9.jpeg",
-        "title": "I once missed an eagle by this much!",
-        "alt": "Iowa 2021 9"
-      },
-      {
-        "location": "img/full/iowa_2021_10.jpeg",
-        "title": "2021 Burritt Cup Winnahs!",
-        "alt": "Iowa 2021 10"
-      },
-      {
-        "location": "img/full/iowa_2021_11.jpeg",
-        "title": "Owen doing Owen thingz",
-        "alt": "Iowa 2021 11"
-      },
-      {
-        "location": "img/full/iowa_2021_12.jpeg",
-        "title": "Mike Robey and the High Round Trophy.  A cherished prize ...",
-        "alt": "Iowa 2021 12"
-      },
-      {
-        "location": "img/full/iowa_2021_13.jpeg",
-        "title": "Clint Delee and the Most Pars Trophy",
-        "alt": "Iowa 2021 13"
-      },
-      {
-        "location": "img/full/iowa_2021_14.jpeg",
-        "title": "Jake Riebe and the Most Bogeys Trophy",
-        "alt": "Iowa 2021 14"
-      }
-    ]
-  },
-  {
-    "title": "2022",
-    "subtitle": [
-      "Woodbine Bend Golf Course, Stockton, IL (Friday round)",
-      "Eagle Ridge Golf Course, South, Galena, IL (Saturday round)",
-      "Eagle Ridge Golf Course, South or General, Galena, IL (Sunday round)"
-    ],
-    "metatitle": "",
-    "summary": "After a 14 year break, the group decided to try this one again.  The group really enjoyed Woodbine Bend.  Many compliments about the course maintenance were made.  However, I wouldn't say the same for the Eagle Ridge courses.  The sentiment there was that the courses should have been in better shape and offered more amenities like cart GPS for the cost of the round.  There were less complaints about the golf being hard.  I imagine that's a function of experience with age!  Accommodations at the Ashton House were fantastic for the group as there was plenty of not creepy space to have fun in.  For food and spirits, the Friday dinner at a local Irish pub was perfect, a distillery on Saturday before dinner and then dinner at an Italian restaurant in downtown Galena.  Excellent choices and everyone was satisfied afterword.  While we may not come back here again, it was, as always, a good time for the group.",
-    "awards": [
-      "The Burritt Cup - Jim Kopitke and Nat DeRose",
-      "Most Pars - Kyle Burritt",
-      "Most Bogies - Owen Burritt",
+      "The Burritt Cup - Kyle Burritt, Jacob Riebe, Dan Halverson",
       "Low Round - Kyle Burritt",
-      "High Round - Mike Robey"
-    ],
-    "images": [
-      {
-        "location": "img/full/galena_2022_1119.jpeg",
-        "title": "Getting warmed up before the first round",
-        "alt": "Galena 2022 1"
-      },
-      {
-        "location": "img/full/galena_2022_1125.jpeg",
-        "title": "This year's group.  We get better and better looking as the years go.",
-        "alt": "Galena 2022 2"
-      },
-      {
-        "location": "img/full/galena_2022_1128.jpeg",
-        "title": "Owen's thinking, can I hit that car?",
-        "alt": "Galena 2022 3"
-      },
-      {
-        "location": "img/full/galena_2022_1137.jpeg",
-        "title": "Fraternity bro selfie.  Someone tell Halverson to trim that beard.",
-        "alt": "Galena 2022 4"
-      },
-      {
-        "location": "img/full/galena_2022_1144.jpeg",
-        "title": "Great views.  Clean course.",
-        "alt": "Galena 2022 5"
-      },
-      {
-        "location": "img/full/galena_2022_1147.jpeg",
-        "title": "Slackers.  Pre round picture to shake off the nerves.",
-        "alt": "Galena 2022 6"
-      },
-      {
-        "location": "img/full/galena_2022_1151.jpeg",
-        "title": "Pre round Burritt Cup winnahs here on the left, Jim and Nat.",
-        "alt": "Galena 2022 7"
-      },
-      {
-        "location": "img/full/galena_2022_1156.jpeg",
-        "title": "Could Dave K be any happier?",
-        "alt": "Galena 2022 8"
-      },
-      {
-        "location": "img/full/galena_2022_1159.jpeg",
-        "title": "Great views of day 2 course.",
-        "alt": "Galena 2022 9"
-      },
-      {
-        "location": "img/full/galena_2022_1165.jpeg",
-        "title": "Dinner at downtown Galena",
-        "alt": "Galena 2022 10"
-      },
-      {
-        "location": "img/full/galena_2022_1168.jpeg",
-        "title": "Post round Burritt Cup winners!  Nat and Jim",
-        "alt": "Galena 2022 11"
-      },
-      {
-        "location": "img/full/galena_2022_1172.jpeg",
-        "title": "Jacob holding up the flag at U.S. Grant's Galena ... Eagle Ridge",
-        "alt": "Galena 2022 12"
-      },
-      {
-        "location": "img/full/galena_2022_1175.jpeg",
-        "title": "Yes, the hole is down there.",
-        "alt": "Galena 2022 13"
-      },
-      {
-        "location": "img/full/galena_2022_1180.jpeg",
-        "title": "Halverson was that close to a hole in one.  He blew the birdie putt too!",
-        "alt": "Galena 2022 14"
-      },
-      {
-        "location": "img/full/galena_2022_1183.jpeg",
-        "title": "Clint with that picture perfect straight lead arm.  Ready for the LIV Tour!",
-        "alt": "Galena 2022 15"
-      }
-    ]
-  },
-  {
-    "title": "2023",
-    "subtitle": [
-      "Brickyard Crossing, Indianapolis, IN (Friday round)",
-      "The Fort Golf Course, Indianapolis, IN (Saturday round)",
-      "Harrison Hills Golf Club, Attica, IN (Sunday round)"
-    ],
-    "metatitle": "",
-    "summary": "Everything about this trip was excellent EXCEPT the accommodations location.  We won't ever forget where we stayed and what we saw while staying there!  Golf at Brickyard Crossing was great.  It was the most expensive that we've paid for in these trips, but worth the experience.  The other courses were challenging with hills and woods.  St. Elmo's steak house had us drooling!",
-    "awards": [
-      "The Burritt Cup - Owen Burritt, Gene Filippo, Mike Robey, and Dan Halverson",
       "Most Pars - Owen Burritt",
-      "Most Bogies - Clint Delee",
-      "Low Round - Clint Delee",
-      "High Round - Mike Robey"
-    ],
-    "images": [
-      {
-        "location": "img/full/indy_2023_1.jpeg",
-        "title": "Shooting Stick and the Shit! Indy house was nice inside; questionable outside.",
-        "alt": "Indy 2023 1"
-      },
-      {
-        "location": "img/full/indy_2023_2.jpeg",
-        "title": "More catching up!",
-        "alt": "Indy 2023 2"
-      },
-      {
-        "location": "img/full/indy_2023_3.jpeg",
-        "title": "(L to R) Dan, Dave, Owen, Clint and newcomer Gene. Gene will be back.  We didn't scare him away!",
-        "alt": "Indy 2023 3"
-      },
-      {
-        "location": "img/full/indy_2023_4.jpeg",
-        "title": "Group photo at Brickyard Crossing.  The course has four holes inside the Indy Speedway track.  The had some road racing going on this day.",
-        "alt": "Indy 2023 4"
-      },
-      {
-        "location": "img/full/indy_2023_5.jpeg",
-        "title": "Coolest looking golf cart I've ever seen.",
-        "alt": "Indy 2023 5"
-      },
-      {
-        "location": "img/full/indy_2023_6.jpeg",
-        "title": "Owen posing with the Brickyard flag",
-        "alt": "Indy 2023 6"
-      },
-      {
-        "location": "img/full/indy_2023_7.jpeg",
-        "title": "Clint posing with the Brickyard flag",
-        "alt": "Indy 2023 7"
-      },
-      {
-        "location": "img/full/indy_2023_8.jpeg",
-        "title": "Yetty posing with the Brickyard flag",
-        "alt": "Indy 2023 8"
-      },
-      {
-        "location": "img/full/indy_2023_9.jpeg",
-        "title": "2023 Burritt Cup winnahs! Gene Filippo, Mike Robey, Owen Burritt, Dan Halverson",
-        "alt": "Indy 2023 9"
-      },
-      {
-        "location": "img/full/indy_2023_10.jpeg",
-        "title": "2023 Low Round winner Clint Delee",
-        "alt": "Indy 2023 10"
-      },
-      {
-        "location": "img/full/indy_2023_11.jpeg",
-        "title": "2023 Most Bogies winner Clint Delee",
-        "alt": "Indy 2023 11"
-      },
-      {
-        "location": "img/full/indy_2023_12.jpeg",
-        "title": "2023 Most Pars winner Owen Burritt",
-        "alt": "Indy 2023 12"
-      },
-      {
-        "location": "img/full/indy_2023_13.jpeg",
-        "title": "2023 High Round winner Mike Robey.  He looks extremely excited.",
-        "alt": "Indy 2023 13"
-      },
-      {
-        "location": "img/full/indy_2023_14.jpeg",
-        "title": "Dinner at St. Elmo's Steak House in downtown Indy.  We had our own room and the shrimp cocktail was an experience!",
-        "alt": "Indy 2023 14"
-      },
-      {
-        "location": "img/full/indy_2023_15.jpeg",
-        "title": "We got the special treatment with our dinner menus at St. Elmo's!",
-        "alt": "Indy 2023 15"
-      },
-      {
-        "location": "img/full/indy_2023_16.jpeg",
-        "title": "Golf at the Brickyard!",
-        "alt": "Indy 2023 16"
-      },
-      {
-        "location": "img/full/indy_2023_17.jpeg",
-        "title": "Brickyard Crossing sign",
-        "alt": "Indy 2023 17"
-      },
-      {
-        "location": "img/full/indy_2023_18.jpeg",
-        "title": "Gene and Owen",
-        "alt": "Indy 2023 18"
-      },
-      {
-        "location": "img/full/indy_2023_19.jpeg",
-        "title": "Top 'O the morning to ya!",
-        "alt": "Indy 2023 19"
-      },
-      {
-        "location": "img/full/indy_2023_20.jpeg",
-        "title": "Pre round (and pre breakfast) smiles",
-        "alt": "Indy 2023 20"
-      },
-      {
-        "location": "img/full/indy_2023_21.jpeg",
-        "title": "OK, USA!",
-        "alt": "Indy 2023 21"
-      },
-      {
-        "location": "img/full/indy_2023_22.jpeg",
-        "title": "St. Elmo's dinner courses from foodie Owen",
-        "alt": "Indy 2023 22"
-      }
-    ]
-  },
-  {
-    "title": "2024",
-    "subtitle": [
-      "El Paso Golf Club, El Paso, IL(Friday round)",
-      "The Den, Bloomington, IL (Saturday round)",
-      "Weibring Golf Club, Normal, IL (Sunday round)"
-    ],
-    "metatitle": "",
-    "summary": "A first time stop in Bloomington-Normal, IL.  The group stayed at The Chateau hotel this year which isn't our preferred method, but it worked out well.  The courses were all in good shape.  Friday dinner at Jim's Steak House was a fantastic, old school place with big cuts of meat and tasty sides.  Saturday dinner at Epiphany Farms was wonderful as well.  It was prix fixe with SEVEN courses.  I thought we were going home hungry, but no way.",
-    "awards": [
-      "The Burritt Cup - Justin Niekamp, Jacob Riebe, Dave Kakareka, Scott Barnica and Dan Halverson",
-      "Most Pars - Clint Delee",
-      "Most Bogies - Jacob Riebe",
-      "Low Round - Owen Burritt",
+      "Most Bogeys - Jacob Riebe",
+      "Most Hazards - Sean Smith",
       "High Round - Dan Halverson"
     ],
     "images": [
       {
-        "location": "img/full/bloom_2024_1.jpeg",
-        "title": "Clin-ton is ready to go!",
-        "alt": "Bloomington 2024 1"
-      },{
-        "location": "img/full/bloom_2024_2.jpeg",
-        "title": "Dan is getting ready to slice!",
-        "alt": "Bloomington 2024 2"
-      },{
-        "location": "img/full/bloom_2024_3.jpeg",
-        "title": "While Scott ponders his existence here, Owen, Kyle and Riebe are bringing that swagger.",
-        "alt": "Bloomington 2024 3"
-      },{
-        "location": "img/full/bloom_2024_4.jpeg",
-        "title": "2024 Burritt Cup Winnahs! (L to R) Dan Halverson, Justin Niekamp, Jacob Riebe, Dave Kakareka, and Scott Barnica",
-        "alt": "Bloomington 2024 4"
-      },{
-        "location": "img/full/bloom_2024_5.jpeg",
-        "title": "Saturday night dinner at Epiphany Farms.  Seven courses of deliciousness.",
-        "alt": "Bloomington 2024 5"
-      },{
-        "location": "img/full/bloom_2024_6.jpeg",
-        "title": "Most Pars winner Clint Delee",
-        "alt": "Bloomington 2024 6"
-      },{
-        "location": "img/full/bloom_2024_7.jpeg",
-        "title": "Most Bogies winner Jacob Riebe",
-        "alt": "Bloomington 2024 7"
-      },{
-        "location": "img/full/bloom_2024_8.jpeg",
-        "title": "Low Round winner Owen Burritt",
-        "alt": "Bloomington 2024 8"
-      },{
-        "location": "img/full/bloom_2024_9.jpeg",
+        "location": "img/full/swan_lake_2017_1.jpg",
+        "title": "Nat contemplating the finer things in life.",
+        "alt": "Swan Lake 2017 1"
+      },
+      {
+        "location": "img/full/swan_lake_2017_2.jpg",
+        "title": "Owen... 'Where'd that ball go?''",
+        "alt": "Swan Lake 2017 2"
+      },
+      {
+        "location": "img/full/swan_lake_2017_3.jpg",
+        "title": "Getting ready to start losing some golf balls.",
+        "alt": "Swan Lake 2017 3"
+      },
+      {
+        "location": "img/full/swan_lake_2017_4.jpg",
+        "title": "The Fariway House from the driveway.",
+        "alt": "Swan Lake 2017 4"
+      },
+      {
+        "location": "img/full/swan_lake_2017_5.jpg",
+        "title": "Kyle is measuring his shot",
+        "alt": "Swan Lake 2017 5"
+      },
+      {
+        "location": "img/full/swan_lake_2017_6.jpg",
+        "title": "Good form on Dave.",
+        "alt": "Swan Lake 2017 6"
+      },
+      {
+        "location": "img/full/swan_lake_2017_7.jpg",
+        "title": "Now that's a fire...",
+        "alt": "Swan Lake 2017 7"
+      },
+      {
+        "location": "img/full/swan_lake_2017_8.jpg",
+        "title": "Professional polish by Dave before Day 2",
+        "alt": "Swan Lake 2017 8"
+      },
+      {
+        "location": "img/full/swan_lake_2017_9.jpg",
+        "title": "Before the morning round on Day 2",
+        "alt": "Swan Lake 2017 9"
+      },
+      {
+        "location": "img/full/swan_lake_2017_10.jpg",
+        "title": "Nat's going through his tee box routine",
+        "alt": "Swan Lake 2017 10"
+      },
+      {
+        "location": "img/full/swan_lake_2017_11.jpg",
+        "title": "Nice finish OB!",
+        "alt": "Swan Lake 2017 11"
+      },
+      {
+        "location": "img/full/swan_lake_2017_12.jpg",
+        "title": "Nat looks like he's squeezing some golf between safaris",
+        "alt": "Swan Lake 2017 12"
+      },
+      {
+        "location": "img/full/swan_lake_2017_13.jpg",
+        "title": "Dan and the Cup",
+        "alt": "Swan Lake 2017 13"
+      },
+      {
+        "location": "img/full/swan_lake_2017_14.jpg",
+        "title": "Jake and the Cup",
+        "alt": "Swan Lake 2017 14"
+      },
+      {
+        "location": "img/full/swan_lake_2017_15.jpg",
+        "title": "Burrit Cup winning hardware. It's rarely all in the same spot at the same time.",
+        "alt": "Swan Lake 2017 15"
+      },
+      {
+        "location": "img/full/swan_lake_2017_18.jpg",
+        "title": "2017 Crew shot",
+        "alt": "Swan Lake 2017 18"
+      },
+      {
+        "location": "img/full/swan_lake_2017_21.jpg",
+        "title": "Low Round winner Kyle Burritt",
+        "alt": "Swan Lake 2017 21"
+      },
+      {
+        "location": "img/full/swan_lake_2017_22.jpg",
+        "title": "Most Pars winner Owen Burritt",
+        "alt": "Swan Lake 2017 22"
+      },
+      {
+        "location": "img/full/swan_lake_2017_23.jpg",
         "title": "High Round winner Dan Halverson",
-        "alt": "Bloomington 2024 9"
-      },{
-        "location": "img/full/bloom_2024_10.jpeg",
-        "title": "Crazy Dave Kakareka with the Burritt Cup",
-        "alt": "Bloomington 2024 10"
-      },{
-        "location": "img/full/bloom_2024_11.jpeg",
-        "title": "Peace Dave, and a happy crew of weekend hackers!",
-        "alt": "Bloomington 2024 11"
-      },{
-        "location": "img/full/bloom_2024_12.jpeg",
-        "title": "Nat is ready to eat that steak!",
-        "alt": "Bloomington 2024 12"
-      },{
-        "location": "img/full/bloom_2024_13.jpeg",
-        "title": "Fwends forever! Jinx!",
-        "alt": "Bloomington 2024 13"
-      },{
-        "location": "img/full/bloom_2024_14.jpeg",
-        "title": "The Cup in front of the hotel fountain.",
-        "alt": "Bloomington 2024 14"
+        "alt": "Swan Lake 2017 23"
+      },
+      {
+        "location": "img/full/swan_lake_2017_24.jpg",
+        "title": "Most Bogies winner Jacob Riebe",
+        "alt": "Swan Lake 2017 24"
+      },
+      {
+        "location": "img/full/swan_lake_2017_25.jpg",
+        "title": "We are the Champions! Jacob Riebe, Dan Halverson and Kyle Burritt",
+        "alt": "Swan Lake 2017 25"
+      }
+    ]
+  },
+  {
+    "title": "2016",
+    "subtitle": [
+      "Geneva National Resort - Lake Geneva, Wisconsin"
+    ],
+    "metatitle": "",
+    "summary": "The players really enjoyed the golf at this location. Accommodations were at the swanky Ridge Hotel. All three courses at Geneva National offer many golf challenges. We dined at Sprecher's and the hotel restaurant. On Friday, the group went out to enjoy Lake Geneva bars. During Sunday's golf, a minor incident almost occurred. Dan Halverson had almost tipped a cart over in a sand trap. He saved it with masterful skill and a strong left leg.",
+    "awards": [
+      "The Burritt Cup - Clint Delee, Nat DeRose, Jason Lane",
+      "Low Round - Kevin Eck",
+      "Most Pars - Kevin Eck",
+      "Most Bogeys - Clint Delee",
+      "Most Hazards - Nat DeRose",
+      "High Round - Dan Halverson"
+    ],
+    "images": [
+      {
+        "location": "img/full/geneva_2016_1.jpg",
+        "title": "A look out over the practice area from the clubhouse.",
+        "alt": "Geneva 1"
+      },
+      {
+        "location": "img/full/geneva_2016_2.jpg",
+        "title": "(L to R) Clint Delee, Jacob Riebe, Jason Lane, Kyle Burritt, Owen Burritt, Nat DeRose Enjoying a beer before the first round.",
+        "alt": "Geneva 2"
+      },
+      {
+        "location": "img/full/geneva_2016_3.jpg",
+        "title": "Gotta make some putts!",
+        "alt": "Geneva 3"
+      },
+      {
+        "location": "img/full/geneva_2016_4.jpg",
+        "title": "(L to R) Kevin Eck, Dave Kakareka, Nat DeRose, Dan Halverson, Clint Delee, Jacob Riebe, Owen Burritt, Jason Lane, Kyle Burritt",
+        "alt": "Geneva 4"
+      },
+      {
+        "location": "img/full/geneva_2016_5.jpg",
+        "title": "Shockers and flappy birds, I guess...",
+        "alt": "Geneva 5"
+      },
+      {
+        "location": "img/full/geneva_2016_6.jpg",
+        "title": "Clint is pondering the deeper questions in life.",
+        "alt": "Geneva 6"
+      },
+      {
+        "location": "img/full/geneva_2016_7.jpg",
+        "title": "OMG! It's a camera too!",
+        "alt": "Geneva 7"
+      },
+      {
+        "location": "img/full/geneva_2016_8.jpg",
+        "title": "Jason Lane",
+        "alt": "Geneva 8"
+      },
+      {
+        "location": "img/full/geneva_2016_9.jpg",
+        "title": "Kyle Burritt",
+        "alt": "Geneva 9"
+      },
+      {
+        "location": "img/full/geneva_2016_10.jpg",
+        "title": "Owen Burritt",
+        "alt": "Geneva 10"
+      },
+      {
+        "location": "img/full/geneva_2016_11.jpg",
+        "title": "Clint Delee",
+        "alt": "Geneva 11"
+      },
+      {
+        "location": "img/full/geneva_2016_12.jpg",
+        "title": "Jacob Riebe",
+        "alt": "Geneva 12"
+      },
+      {
+        "location": "img/full/geneva_2016_13.jpg",
+        "title": "Kevin Eck",
+        "alt": "Geneva 13"
+      },
+      {
+        "location": "img/full/geneva_2016_14.jpg",
+        "title": "Nat DeRose",
+        "alt": "Geneva 14"
+      },
+      {
+        "location": "img/full/geneva_2016_15.jpg",
+        "title": "Dave Kakareka",
+        "alt": "Geneva 15"
+      },
+      {
+        "location": "img/full/geneva_2016_16.jpg",
+        "title": "2016 Burritt Cup Winners! (L to R) Jason Lane, Nat DeRose, Clint Delee",
+        "alt": "Geneva 16"
+      },
+      {
+        "location": "img/full/geneva_2016_17.jpg",
+        "title": "Rules Committee hard at work tallying up the final individual results.",
+        "alt": "Geneva 17"
+      },
+      {
+        "location": "img/full/geneva_2016_18.jpg",
+        "title": "Lunch on Sunday and awards.",
+        "alt": "Geneva 18"
+      },
+      {
+        "location": "img/full/geneva_2016_19.jpg",
+        "title": "Nat is super happy with his most hazards award.",
+        "alt": "Geneva 19"
+      },
+      {
+        "location": "img/full/geneva_2016_20.jpg",
+        "title": "Lane's got some Cup Cash!",
+        "alt": "Geneva 20"
+      },
+      {
+        "location": "img/full/geneva_2016_21.jpg",
+        "title": "Concentration ... (L to R) Twitter, Lunch, Scorecard",
+        "alt": "Geneva 21"
+      },
+      {
+        "location": "img/full/geneva_2016_22.jpg",
+        "title": "",
+        "alt": "Geneva 22"
+      },
+      {
+        "location": "img/full/geneva_2016_23.jpg",
+        "title": "Winner winner, chicken dinner (of what, I'm not sure)",
+        "alt": "Geneva 23"
+      },
+      {
+        "location": "img/full/geneva_2016_24.jpg",
+        "title": "Toast to the victors!",
+        "alt": "Geneva 24"
+      },
+      {
+        "location": "img/full/geneva_2016_25.jpg",
+        "title": "Kevin Eck, Most Pars and Lowest Round 2016 Winner",
+        "alt": "Geneva 25"
+      },
+      {
+        "location": "img/full/geneva_2016_26.jpg",
+        "title": "Clint Delee, Most Bogies 2016 Winner",
+        "alt": "Geneva 26"
+      },
+      {
+        "location": "img/full/geneva_2016_27.jpg",
+        "title": "2016 Cup Winners, (L to R) Jason Lane, Nat DeRose, Clint Delee",
+        "alt": "Geneva 27"
+      },
+      {
+        "location": "img/full/geneva_2016_28.jpg",
+        "title": "I think they wanted a skate around the ice type of moment or something.",
+        "alt": "Geneva 28"
+      },
+      {
+        "location": "img/full/geneva_2016_29.jpg",
+        "title": "Last shot of the players and awards. Until next year...",
+        "alt": "Geneva 29"
+      }
+    ]
+  },
+  {
+    "title": "2015",
+    "subtitle": "Coachman's Golf Resort - Edgerton, Wisconsin",
+    "metatitle": "",
+    "summary": "Coachman's is a unique resort in that the golf is good, but the accommodations are right from the '70s. Coachman's offers an on site bar and restaurant for dining. The golf package included drink tickets and two dinner meals. The golfers never left the property as there isn't much around Coachman's to get to! Kyle Burritt did make an early Saturday morning run to Dunkin Donuts for the group though. Thanks, Kyle!",
+    "awards": [
+      "The Burritt Cup - Kevin Eck, Jacob Riebe, Nat DeRose, Jason Lane",
+      "Low Round - Kevin Eck",
+      "Most Pars - Kevin Eck",
+      "Most Bogeys - Owen Burritt",
+      "Most Hazards - Nat DeRose",
+      "High Round - Dan Halverson"
+    ],
+    "images": [
+      {
+        "location": "img/full/coachmans_2015_1.jpg",
+        "title": "(L to R) Nat DeRose, Kyle Burritt, Owen Burritt, Jasob Riebe, Dan Halverson, Dave Kakareka, Jason Lane, Kevin Eck",
+        "alt": "Coachmans 2015 1"
+      }
+    ]
+  },
+  {
+    "title": "2014",
+    "subtitle": "Birck Boilermaker Golf Complex at Purdue University - West Lafayette, Indiana",
+    "metatitle": "",
+    "summary": "The players, as I recall, generally enjoyed the courses at Purdue University. The Kampen is a Pete Dye designed links style course with plenty of danger areas to avoid. Ackerman Hills is an old wooded American style course with lots of hills. One hole even has a bell at the bottom of a hill to let the tee box know that current group on the fairway has cleared. The players stayed at a Courtyard, dined at Hooters and enjoyed many adult beverages.",
+    "awards": [
+      "The Burritt Cup - Clint Delee, Nat DeRose, Jason Lane, Kyle Burritt",
+      "Low Round - Clint Delee",
+      "Most Pars - Clint Delee",
+      "Most Bogeys - Owen Burritt",
+      "Most Hazards - Nat DeRose",
+      "High Round - Dan Halverson"
+    ],
+    "images": [
+      {
+        "location": "img/full/purdue_2014_1.jpg",
+        "title": "(L to R) Dan Halverson, Nat DeRose, Jacob Riebe, Clint Delee, Jason Lane, Owen Burritt, Kyle Burritt, Dave Kakareka",
+        "alt": "Purdue 1"
+      },
+      {
+        "location": "img/full/purdue_2014_2.jpg",
+        "title": "(L to R) Nat DeRose, Clint Delee, Kyle Burritt, Jason Lane",
+        "alt": "Purdue 2"
+      },
+      {
+        "location": "img/full/purdue_2014_3.jpg",
+        "title": "Clint Delee",
+        "alt": "Purdue 3"
+      },
+      {
+        "location": "img/full/purdue_2014_4.jpg",
+        "title": "Kyle Burritt",
+        "alt": "Purdue 4"
+      },
+      {
+        "location": "img/full/purdue_2014_5.jpg",
+        "title": "Jason Lane",
+        "alt": "Purdue 5"
+      },
+      {
+        "location": "img/full/purdue_2014_6.jpg",
+        "title": "Nat DeRose",
+        "alt": "Purdue 6"
+      }
+    ]
+  },
+  {
+    "title": "2013",
+    "subtitle": "Swan Lake Resort - Plymouth, Indiana",
+    "metatitle": "",
+    "summary": "",
+    "awards": [
+      "Low Round - Kevin Eck",
+      "Most Pars - Kevin Eck",
+      "Most Bogeys - Owen Burritt"
+    ],
+    "images": [
+      {
+        "location": "img/full/swan_lake_2013.jpg",
+        "title": "(L to R) Owen Burritt, Jacob Riebe, Nat DeRose, Brian Zimmerman, Clint Delee, Dave Kakareka, Kyle Burritt, Kevin Eck",
+        "alt": "Swan Lake 2013"
+      }
+    ]
+  },
+  {
+    "title": "2012",
+    "subtitle": "Devil's Head - Merrimac, Wisconsin",
+    "metatitle": "",
+    "awards": [
+      "Most Pars - Kyle Burritt",
+      "Most Bogeys - Clint Delee"
+    ]
+  },
+  {
+    "title": "2011",
+    "subtitle": "Devil's Head - Merrimac, Wisconsin",
+    "metatitle": ""
+  },
+  {
+    "title": "2010",
+    "subtitle": "Gull Lake Resort - Augusta, Michigan",
+    "metatitle": ""
+  },
+  {
+    "title": "2009",
+    "subtitle": "Fox Hills Resort - Mishicot, Wisconsin",
+    "metatitle": "",
+    "images": [
+      {
+        "location": "img/full/fox_hills_2009_2.jpg",
+        "title": "(L to R) Brian Zimmerman, Dave Kakareka, Owen Burritt, Kyle Burritt, Jacob Riebe, Clint Delee, Nat DeRose",
+        "alt": "Fox Hills 2"
+      }
+    ]
+  },
+  {
+    "title": "2008",
+    "subtitle": "Eagle Ridge Golf Resort - Galena, Illinois",
+    "metatitle": "A really hard course",
+    "images": [
+      {
+        "location": "img/full/Galena_2008_1.JPG",
+        "title": "The General",
+        "alt": "Galena 1"
+      },
+      {
+        "location": "img/full/Galena_2008_2.JPG",
+        "title": "(L to R) Brian Zimmerman and Clint Delee",
+        "alt": "Galena 2"
+      },
+      {
+        "location": "img/full/Galena_2008_3.jpg",
+        "title": "(L to R) Mike Seegers, Nat DeRose, Owen Burritt, Kyle Burritt, Clint Delee, Brian Zimmerman and Jacob Riebe",
+        "alt": "Galena 3"
+      },
+      {
+        "location": "img/full/Galena_2008_4.jpg",
+        "title": "There's always some tomfoolery at a Burrit Cup event!",
+        "alt": "Galena 4"
+      }
+    ]
+  },
+  {
+    "title": "2007",
+    "subtitle": "Coachman's Golf Resort - Edgerton, Wisconsin",
+    "metatitle": "A classy joint."
+  },
+  {
+    "title": "2006",
+    "subtitle": "Swan Lake Resort - Plymouth, Indiana",
+    "metatitle": "The Inaugural Burritt Cup Weekend",
+    "images": [
+      {
+        "location": "./img/full/Swan_Lake_2006_1.JPG",
+        "title": "(L to R) Owen Burritt, Brian Zimmerman, Dan Coulter and Kyle Burritt",
+        "alt": "Swan Lake 2006"
       }
     ]
   }
