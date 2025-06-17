@@ -2,8 +2,8 @@ name: Test, Build and Publish to S3
 
 on:
   push:
-    tags:
-      - '*'
+    branches:
+      - 'master'
 
   workflow_dispatch:
 
