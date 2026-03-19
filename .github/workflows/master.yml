@@ -15,11 +15,11 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Setup Node.js environment
-        uses: actions/setup-node@v2.4.1
+        uses: actions/setup-node@v4
         with:
-          node-version: '18'
+          node-version: '20'
       - name: Install Dependencies
         run: npm install
       - name: Test Code
@@ -30,7 +30,7 @@ jobs:
         run: npm run build
       - name: Deploy to S3
         if: ${{ success() }}
-        uses: reggionick/s3-deploy@v3
+        uses: reggionick/s3-deploy@v4
         with:
           bucket: ${{ secrets.AWS_BUCKET }}
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
