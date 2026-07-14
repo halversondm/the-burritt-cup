@@ -1,7 +1,4 @@
 import {useState, useEffect} from 'react';
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from 'react-bootstrap/Col';
 import Post from './Post';
 
 interface LocationsState {
@@ -55,18 +52,14 @@ export default function Locations() {
     })
 
     return (
-        <Container>
-            <Row className="justify-content-center">
-                <Col lg={8} md={10}>
-                    <h1>Locations</h1>
-                </Col>
-            </Row>
+        <div className="mx-auto max-w-3xl px-6 py-16">
+            <h1 className="font-serif text-3xl font-bold text-fairway-900">Locations</h1>
             {state.locations.map((location, i) => {
                 return (
                     <Post key={i} title={location.title} subtitle={location.subtitle} metatitle={location.metatitle}
                           images={location.images} summary={location.summary} awards={location.awards}/>
                 );
             })}
-        </Container>
+        </div>
     );
 }

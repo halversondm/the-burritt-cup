@@ -1,7 +1,4 @@
 import {useState, useEffect} from 'react';
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from 'react-bootstrap/Col';
 import Award from './Award.js';
 
 export default function Awards() {
@@ -32,18 +29,14 @@ export default function Awards() {
 
 
     return (
-        <Container>
-            <Row className="justify-content-center">
-                <Col lg={8} md={10}>
-                    <h1>Awards</h1>
-                </Col>
-            </Row>
+        <div className="mx-auto max-w-3xl px-6 py-16">
+            <h1 className="font-serif text-3xl font-bold text-fairway-900">Awards</h1>
             {state.awards.map((award, i) => {
                 return (
                     <Award key={i} image={award.image} alt={award.alt} title={award.title} subtitle={award.subtitle}
                            metatitle={award.metatitle} winners={award.winners}/>
                 );
             })}
-        </Container>
+        </div>
     );
 }

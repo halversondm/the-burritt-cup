@@ -1,7 +1,4 @@
 import {useState, useEffect} from 'react';
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from 'react-bootstrap/Col';
 import Player from './Player.js';
 
 export default function Players() {
@@ -28,12 +25,8 @@ export default function Players() {
     });
 
     return (
-        <Container>
-            <Row className="justify-content-center">
-                <Col lg={8} md={10}>
-                    <h1>Players</h1>
-                </Col>
-            </Row>
+        <div className="mx-auto max-w-3xl px-6 py-16">
+            <h1 className="font-serif text-3xl font-bold text-fairway-900">Players</h1>
             {state.players.map((player, i) => {
                 return (
                     <Player key={i} image={player.image} thumbnail={player.thumbnail} alt={player.alt}
@@ -41,7 +34,7 @@ export default function Players() {
                             nickname={player.nickname} about={player.about}/>
                 );
             })}
-        </Container>
+        </div>
     );
 
 }
