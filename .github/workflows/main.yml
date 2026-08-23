@@ -22,6 +22,9 @@ jobs:
       - name: Check Formatting
         if: ${{ success() }}
         run: npm run prettier:check
+      - name: Lint Code
+        if: ${{ success() }}
+        run: npm run lint
       - name: Test Code
         if: ${{ success() }}
         run: npm run test

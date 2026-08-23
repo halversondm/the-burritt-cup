@@ -24,11 +24,6 @@ export default function App() {
   );
   const [mobileOpen, setMobileOpen] = useState(false);
 
-  useEffect(() => {
-    window.addEventListener("scroll", scrollingNavBar);
-    return () => window.removeEventListener("scroll", scrollingNavBar);
-  });
-
   function scrollingNavBar() {
     const currentTop = window.scrollY;
     if (currentTop === 0) {
@@ -48,6 +43,11 @@ export default function App() {
       setState({ navMode: "fixed", previousTop: currentTop });
     }
   }
+
+  useEffect(() => {
+    window.addEventListener("scroll", scrollingNavBar);
+    return () => window.removeEventListener("scroll", scrollingNavBar);
+  });
 
   return (
     <div>
