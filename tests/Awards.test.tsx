@@ -1,5 +1,5 @@
-import Awards from '../src/Awards';
-import {render} from "@testing-library/react";
+import Awards from "../src/Awards";
+import { render } from "@testing-library/react";
 
 test("renders without crashing", () => {
   const unit = <Awards />;

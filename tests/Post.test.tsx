@@ -1,5 +1,5 @@
-import Post from '../src/Post';
-import {render} from "@testing-library/react";
+import Post from "../src/Post";
+import { render } from "@testing-library/react";
 
 test("renders without crashing", () => {
   const unit = <Post />;

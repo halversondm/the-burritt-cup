@@ -1,5 +1,5 @@
-import Player from '../src/Player';
-import {render} from "@testing-library/react";
+import Player from "../src/Player";
+import { render } from "@testing-library/react";
 
 test("renders without crashing", () => {
   const unit = <Player />;

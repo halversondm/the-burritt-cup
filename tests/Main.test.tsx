@@ -1,5 +1,5 @@
-import Main from '../src/Main';
-import {render} from "@testing-library/react";
+import Main from "../src/Main";
+import { render } from "@testing-library/react";
 
 test("renders without crashing", () => {
   const unit = <Main />;

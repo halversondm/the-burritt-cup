@@ -1,5 +1,5 @@
-import Locations from '../src/Locations';
-import {render} from "@testing-library/react";
+import Locations from "../src/Locations";
+import { render } from "@testing-library/react";
 
 test("renders without crashing", () => {
   const unit = <Locations />;

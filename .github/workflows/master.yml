@@ -19,9 +19,12 @@ jobs:
       - name: Setup Node.js environment
         uses: actions/setup-node@v6.4.0
         with:
-          node-version: '24'
+          node-version: "24"
       - name: Install Dependencies
         run: npm install
+      - name: Check Formatting
+        if: ${{ success() }}
+        run: npm run prettier:check
       - name: Test Code
         if: ${{ success() }}
         run: npm run test
@@ -34,6 +37,6 @@ jobs:
         with:
           bucket: ${{ secrets.AWS_BUCKET }}
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
-          folder: 'dist'
+          folder: "dist"
           dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
           delete-removed: true
