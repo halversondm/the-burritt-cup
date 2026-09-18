@@ -7,6 +7,10 @@
     "metatitle": "This Cup is the goal of the weekend. The bragging rights for the next year go to the winners of the Cup. Teams are chosen at random and vary from year to year.",
     "winners": [
       {
+        "year": "2026",
+        "name": "Owen Burritt and Dave Kakareka"
+      },
+      {
         "year": "2025",
         "name": "Clint Delee, Mike Robey, Gene Filippo, and Dave Kakareka"
       },
@@ -63,6 +67,10 @@
     "subtitle": "To the player, who shoots like a Tour player.",
     "metatitle": "This award goes to the player who cards the lowest round out of three on the weekend.",
     "winners": [
+      {
+        "year": "2026",
+        "name": "Clint Delee"
+      },
       {
         "year": "2025",
         "name": "Owen Burritt"
@@ -124,6 +132,10 @@
     "subtitle": "To the player, who's working towards the Tour Card.",
     "metatitle": "This award goes to the player with the most pars over three rounds of golf.",
     "winners": [
+      {
+        "year": "2026",
+        "name": "Clint Delee"
+      },
       {
         "year": "2025",
         "name": "Owen Burritt"
@@ -190,6 +202,10 @@
     "metatitle": "This award goes to the player with the most bogies over three rounds of golf.",
     "winners": [
       {
+        "year": "2026",
+        "name": "Jacob Riebe"
+      },
+      {
         "year": "2025",
         "name": "Clint Delee"
       },
@@ -255,7 +271,11 @@
     "metatitle": "This award goes to the player with the highest round over three rounds of golf.",
     "winners": [
       {
-        "year": "2024",
+        "year": "2026",
+        "name": "Joe Novak"
+      },
+      {
+        "year": "2025",
         "name": "Justin Niekamp"
       },
       {

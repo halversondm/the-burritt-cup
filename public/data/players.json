@@ -148,5 +148,15 @@
     "hometown": "Denver, Colorado",
     "nickname": "#lungdart",
     "about": "Gene made his Cup debut in 2023.  First time out and wins the Cup ... Owen's jealous."
+  },
+  {
+    "image": "img/full/gene_full.jpg",
+    "thumbnail": "./img/thumbnails/gene_head.jpg",
+    "alt": "Joe Novak",
+    "name": "Joe Novak",
+    "office": "",
+    "hometown": "Phoenix, Arizona",
+    "nickname": "TBD",
+    "about": "Joe made his Cup debut in 2023."
   }
 ]
