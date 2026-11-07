@@ -20,8 +20,9 @@ export default function Players() {
   useEffect(() => {
     fetch("data/players.json")
       .then((response) => response.json())
-      .then((json) => setState({ players: json }));
-  });
+      .then((json) => setState({ players: json }))
+      .catch((error) => console.error("Failed to load players:", error));
+  }, []);
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">

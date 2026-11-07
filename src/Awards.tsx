@@ -23,8 +23,9 @@ export default function Awards() {
   useEffect(() => {
     fetch("data/awards.json")
       .then((response) => response.json())
-      .then((json) => setState({ awards: json }));
-  });
+      .then((json) => setState({ awards: json }))
+      .catch((error) => console.error("Failed to load awards:", error));
+  }, []);
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
