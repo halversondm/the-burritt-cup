@@ -5,14 +5,16 @@ on:
     branches:
       - master
 
+  pull_request:
+    branches:
+      - master
+
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     steps:
       - name: Checkout Code
@@ -38,11 +40,14 @@ jobs:
         if: ${{ success() && env.SONAR_TOKEN != '' }}
         uses: SonarSource/sonarqube-scan-action@v8.4.1
       - name: Build Code
-        if: ${{ success() }}
+        if: ${{ success() && github.event_name != 'pull_request' }}
         run: npm run build
       - name: Deploy to S3
-        if: ${{ success() }}
+        if: ${{ success() && github.event_name != 'pull_request' }}
         uses: reggionick/s3-deploy@v4.0.0
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         with:
           bucket: ${{ secrets.AWS_BUCKET }}
           bucket-region: ${{ secrets.S3_BUCKET_REGION }}
