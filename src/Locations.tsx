@@ -47,8 +47,9 @@ export default function Locations() {
   useEffect(() => {
     fetch("data/locations.json")
       .then((response) => response.json())
-      .then((json) => setState({ locations: json }));
-  });
+      .then((json) => setState({ locations: json }))
+      .catch((error) => console.error("Failed to load locations:", error));
+  }, []);
 
   return (
     <div className="mx-auto max-w-3xl px-6 py-16">
