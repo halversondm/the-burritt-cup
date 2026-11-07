@@ -13,9 +13,12 @@ jobs:
     env:
       AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
     steps:
       - name: Checkout Code
         uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
       - name: Setup Node.js environment
         uses: actions/setup-node@v7.1.0
         with:
@@ -30,7 +33,10 @@ jobs:
         run: npm run lint
       - name: Test Code
         if: ${{ success() }}
-        run: npm run test
+        run: npm run test -- --run --coverage --coverage.reporter=lcov --coverage.include='src/**'
+      - name: SonarCloud Scan
+        if: ${{ success() && env.SONAR_TOKEN != '' }}
+        uses: SonarSource/sonarqube-scan-action@v8.4.1
       - name: Build Code
         if: ${{ success() }}
         run: npm run build
